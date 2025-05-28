@@ -1,4 +1,4 @@
-<h1>TypeScript</h1>
+<h2>TypeScript</h2>
 <div>
       <ul>
             <li>js 상위집합</li>
