@@ -40,6 +40,8 @@
  </ul>
  <p>javascript 전역 개발 라이브러리로 Vanilla JS, Angular, Vue 등 사용 가능</p>
  <p>단점 : 초기 설정 복잡함</p>
- <h3>Redux-toolkit</h3>
+ <h3>Redux-toolkit(RTK)</h3>
+ <p>Redux를 간단하게 만드는 API 제공</p>
+ <a href="https://ko.redux.js.org/introduction/getting-started">Redux 공식 사이트</a>
 </div>
  Redux, Zustand, Context, Recoil
