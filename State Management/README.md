@@ -35,7 +35,9 @@
   <li>Dispatch : 스토어에 전달</li>
  </ul>
  <p>FLux 아키텍처 사용으로 단방향 데이터 흐름 -> 데이터 변화 예측 쉬움</p>
- <p>Flux 아키텍처 : 액션 -> 디스패쳐 -> 스토어 -> 뷰, 한 방향으로 데이터가 흘러감</p>
+ <ul>
+  <li>Flux 아키텍처 : 액션 -> 디스패쳐 -> 스토어 -> 뷰, 한 방향으로 데이터가 흘러감</li>
+ </ul>
  <p>javascript 전역 개발 라이브러리로 Vanilla JS, Angular, Vue 등 사용 가능</p>
  <p>단점 : 초기 설정 복잡함</p>
  <h3>Redux-toolkit</h3>
