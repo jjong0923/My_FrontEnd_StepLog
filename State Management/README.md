@@ -1,13 +1,13 @@
 <div>
 <h2>
  상태 관리란?
-</h2>
+</h1>
  <p>
   애플리케이션 데이터를 효율적으로 관리<br>
  </p>
 </div>
 <div>
- <h3>Local State Management</h3>
+ <h2>Local State Management</h3>
  <p>
   useState, useReducer
  </p>
@@ -26,6 +26,7 @@
 </div>
 
 <div>
+ <h2>Global State Management</h2>
  <h3><a href="https://ko.redux.js.org/introduction/getting-started">Redux</a></h3>
  <p>주요 개념</p>
  <ul>
