@@ -14,7 +14,7 @@
  <p>컴포넌트 내부에서 관리 -> 불필요한 랜더링 방지 - 소규모 애플리케이션</p>
  <p>단점 : prop drilling - 규모가 커지면 하위 컴포넌트로 prop 전달이 많아짐</p>
 
- <h3>Context API</h3>
+ <h3><a href="https://react.dev/learn/scaling-up-with-reducer-and-context">Context API</a></h3>
  <p>
   prop을 사용하지 않고 데이터 공유(전역)
  </p>
@@ -23,10 +23,10 @@
  <ul>
   <li>테마/사용자/언어(지역) 데이터</li>
  </ul>
- <a href="https://react.dev/learn/scaling-up-with-reducer-and-context">자세히 보러 가기</a>
 </div>
+
 <div>
- <h3>Redux</h3>
+ <h3><a href="https://ko.redux.js.org/introduction/getting-started">Redux</a></h3>
  <p>주요 개념</p>
  <ul>
   <li>Store : 상태 보관</li>
@@ -43,9 +43,8 @@
  
  <h3>Redux-toolkit(RTK)</h3>
  <p>Redux를 간단하게 만드는 API 제공</p>
- <a href="https://ko.redux.js.org/introduction/getting-started">Redux 공식 사이트</a>
 
- <h3>Recoil</h3>
+ <h3><a href="https://recoiljs.org/ko/">Recoil</a></h3>
  <p>Facebook에서 개발한 React 전용 전역 상태 관리 라이브러리, Atomic(원자) 단위로 상태 관리 -> 유연하고 재사용성 높음</p>
  <ul>
   <li>Atoms : 상태 최소 단위, 업데이트, 구독 가능</li>
@@ -53,10 +52,9 @@
  </ul>
  <p>▶ 비동기 상태 관리가 쉽고 선택적 상태 구독을 통해 성능 최적화 가능</p>
  <p>Next.js와 많이 사용됨</p>
- <a href="https://recoiljs.org/ko/">Recoil</a>
  
- <h3>Zustand</h3>
+ 
+ <h3><a href="https://zustand-demo.pmnd.rs/">Zustand</a></h3>
  <p>작은 크기와 단순한 함수 기반 API 제공하는 전역 상태 관리 라이브러리</p>
  <p>최소한의 리랜더링과 최적화 제공</p>
- <a href="https://zustand-demo.pmnd.rs/">Zustand</a>
 </div>
