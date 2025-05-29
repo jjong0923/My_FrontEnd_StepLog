@@ -21,6 +21,6 @@
  <p>단점 : 규모가 커지면 Context 또한 많아져 관리 어려움</p>
  <h5>사용 예시</h5>
  <p>테마/사용자/언어(지역) 데이터</p>
- <a href="[https://ko.legacy.reactjs.org/docs/context.html](https://react.dev/learn/scaling-up-with-reducer-and-context)">자세히 보러 가기</a>
+ <a href="https://react.dev/learn/scaling-up-with-reducer-and-context">자세히 보러 가기</a>
 </div>
  Redux, Zustand, Context, Recoil
