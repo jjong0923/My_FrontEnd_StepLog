@@ -1,5 +1,5 @@
 <div>
-<h2>
+<h1>
  상태 관리란?
 </h1>
  <p>
@@ -13,7 +13,12 @@
  </p>
  <p>컴포넌트 내부에서 관리 -> 불필요한 랜더링 방지 - 소규모 애플리케이션</p>
  <p>단점 : prop drilling - 규모가 커지면 하위 컴포넌트로 prop 전달이 많아짐</p>
+</div>
 
+<div>
+ 
+ <h2>Global State Management</h2>
+ 
  <h3><a href="https://react.dev/learn/scaling-up-with-reducer-and-context">Context API</a></h3>
  <p>
   prop을 사용하지 않고 데이터 공유(전역)
@@ -23,10 +28,7 @@
  <ul>
   <li>테마/사용자/언어(지역) 데이터</li>
  </ul>
-</div>
-
-<div>
- <h2>Global State Management</h2>
+ 
  <h3><a href="https://ko.redux.js.org/introduction/getting-started">Redux</a></h3>
  <p>주요 개념</p>
  <ul>
