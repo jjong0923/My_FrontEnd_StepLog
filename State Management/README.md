@@ -23,8 +23,7 @@
  <ul>
   <li>테마/사용자/언어(지역) 데이터</li>
  </ul>
- <a href="https://react.dev/learn/scaling-up-with-reducer-and-context" style="
-    color: orange;">자세히 보러 가기</a>
+ <a href="https://react.dev/learn/scaling-up-with-reducer-and-context">자세히 보러 가기</a>
 </div>
 <div>
  <h3>Redux</h3>
@@ -43,7 +42,6 @@
  <p>단점 : 초기 설정 복잡함</p>
  <h3>Redux-toolkit(RTK)</h3>
  <p>Redux를 간단하게 만드는 API 제공</p>
- <a href="https://ko.redux.js.org/introduction/getting-started" style="
-    color: orange;">Redux 공식 사이트</a>
+ <a href="https://ko.redux.js.org/introduction/getting-started">Redux 공식 사이트</a>
 </div>
  Redux, Zustand, Context, Recoil
