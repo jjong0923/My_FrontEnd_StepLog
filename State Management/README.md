@@ -19,8 +19,10 @@
   prop을 사용하지 않고 데이터 공유(전역)
  </p>
  <p>단점 : 규모가 커지면 Context 또한 많아져 관리 어려움</p>
- <h4>사용 예시</h4>
- <p>테마/사용자/언어(지역) 데이터</p>
+ <ul>
+  <h4>사용 예시</h4>
+  <li>테마/사용자/언어(지역) 데이터</li>
+ </ul>
  <a href="https://react.dev/learn/scaling-up-with-reducer-and-context">자세히 보러 가기</a>
 </div>
 <div>
