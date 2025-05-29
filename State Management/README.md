@@ -46,12 +46,17 @@
  <a href="https://ko.redux.js.org/introduction/getting-started">Redux 공식 사이트</a>
 
  <h3>Recoil</h3>
- <p>Facebook에서 개발한 상태 관리 라이브러리, Atomic(원자) 단위로 상태 관리 -> 유연하고 재사용성 높음</p>
+ <p>Facebook에서 개발한 React 전용 전역 상태 관리 라이브러리, Atomic(원자) 단위로 상태 관리 -> 유연하고 재사용성 높음</p>
  <ul>
   <li>Atoms : 상태 최소 단위, 업데이트, 구독 가능</li>
   <li>Selectors : 파생 상태 계산 함수, atoms or selector 입력 받아 파생 값 반환</li>
  </ul>
- <p>▷비동기 상태 관리가 쉽고 선택적 상태 구독을 통해 성능 최적화 가능</p>
+ <p>▶ 비동기 상태 관리가 쉽고 선택적 상태 구독을 통해 성능 최적화 가능</p>
  <p>Next.js와 많이 사용됨</p>
+ <a href="https://recoiljs.org/ko/">Recoil</a>
+ 
+ <h3>Zustand</h3>
+ <p>작은 크기와 단순한 함수 기반 API 제공하는 전역 상태 관리 라이브러리</p>
+ <p>최소한의 리랜더링과 최적화 제공</p>
+ <a href="https://zustand-demo.pmnd.rs/">Zustand</a>
 </div>
- Redux, Zustand, Context, Recoil
