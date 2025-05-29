@@ -50,8 +50,8 @@
  <ul>
   <li>Atoms : 상태 최소 단위, 업데이트, 구독 가능</li>
   <li>Selectors : 파생 상태 계산 함수, atoms or selector 입력 받아 파생 값 반환</li>
-  ▷비동기 상태 관리가 쉽고 선택적 상태 구독을 통해 성능 최적화 가능
  </ul>
+ <p>▷비동기 상태 관리가 쉽고 선택적 상태 구독을 통해 성능 최적화 가능</p>
  <p>Next.js와 많이 사용됨</p>
 </div>
  Redux, Zustand, Context, Recoil
