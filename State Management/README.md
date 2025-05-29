@@ -40,8 +40,18 @@
  </ul>
  <p>javascript 전역 개발 라이브러리로 Vanilla JS, Angular, Vue 등 사용 가능</p>
  <p>단점 : 초기 설정 복잡함</p>
+ 
  <h3>Redux-toolkit(RTK)</h3>
  <p>Redux를 간단하게 만드는 API 제공</p>
  <a href="https://ko.redux.js.org/introduction/getting-started">Redux 공식 사이트</a>
+
+ <h3>Recoil</h3>
+ <p>Facebook에서 개발한 상태 관리 라이브러리, Atomic(원자) 단위로 상태 관리 -> 유연하고 재사용성 높음</p>
+ <ul>
+  <li>Atoms : 상태 최소 단위, 업데이트, 구독 가능</li>
+  <li>Selectors : 파생 상태 계산 함수, atoms or selector 입력 받아 파생 값 반환</li>
+  <li>〓▷비동기 상태 관리가 쉽고 선택적 상태 구독을 통해 성능 최적화 가능</li>
+ </ul>
+ <p>Next.js와 많이 사용됨</p>
 </div>
  Redux, Zustand, Context, Recoil
