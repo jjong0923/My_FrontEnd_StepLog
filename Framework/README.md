@@ -8,9 +8,10 @@
     </ul>
     <p>SFC로 Vue 컴포넌트 작성</p>
     <ul>
-      <li><script></script></li>
-      <li>"<template></template>"</li>
-      <li><style></style></li>
+      <label>태그들
+      <li>script</li>
+      <li>template</li>
+      <li>style</li>
     </ul>
   </div>
 </div>
