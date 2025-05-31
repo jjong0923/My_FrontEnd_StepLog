@@ -9,7 +9,7 @@
     <p>SFC로 Vue 컴포넌트 작성</p>
     <ul>
       <li><script></script></li>
-      <li><template></template></li>
+      <li>"<template></template>"</li>
       <li><style></style></li>
     </ul>
   </div>
