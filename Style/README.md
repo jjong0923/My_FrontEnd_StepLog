@@ -1,3 +1,8 @@
+<h2>Styled Components</h2>
+
+<h2><a>Bootstrap</a></h2>
+<p>오픈소스 CSS 라이브러리</p>
+
 <h2><a href="https://tailwindcss.com/">Tailwind CSS</a></h2>
 <p>유틸리티 우선의 CSS 프레임워크</p>
 <p>모듈화, 디자인 일관성 유지, 유연성</p>
@@ -18,6 +23,5 @@
     bg : background
     
 </p>
-
 
 
