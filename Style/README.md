@@ -11,11 +11,9 @@
 <div className="w-12 h-10 text-white bg-gray-400"></div>
 ```
 
-<p>
-    w : width,
-    h : height,
-    bg-gray : background-color
-</p>
+w : width,
+h : height,
+bg : background
 
 
 
