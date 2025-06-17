@@ -9,11 +9,15 @@
 
 ```
 <div className="w-12 h-10 text-white bg-gray-400"></div>
+<div className="w-full h-10 bg-red-400 text-blue-200">text</div>
+<div className="flex bg-slate-100 mt-3"></div>
 ```
-
-w : width,
-h : height,
-bg : background
+<p>
+    w : width,
+    h : height,
+    bg : background
+    
+</p>
 
 
 
