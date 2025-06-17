@@ -4,6 +4,7 @@
 <ul>
     <li>CSS 파일이 커질 수록 로딩이 느려짐</li>
 </ul>
+
 ```
 <div className="w-12 h-10 text-white bg-gray-400"></div>
 ```
