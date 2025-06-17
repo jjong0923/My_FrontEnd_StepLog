@@ -1,20 +1,28 @@
-<div>
-  <h2>SPA(Single Page Application) 단일 페이지 애플리케이션</h2>
-  <p>
-  서버에서 데이터를 비동기로 받아와 동적으로 렌더링
-  </p>
-  
-  <h2>SSR(Server Side Rendering)</h2>
-  <p>
-  서버에서 데이터 작성 후 클라이언트로 전송
-  </p>
-  
-  <h2>SEO(Serach Engine Optimization)</h2>
-  <p>
-  검색 엔진 최적화
-  </p>
-  
-  <h2>SSG(Static Site Generation) 정적 사이트 생성</h2>
+<h2>단일 페이지 애플리케이션(SPA - Single Page Application)</h2>
+<p>서버에서 데이터를 비동기로 받아와 동적으로 렌더링 - 클라이언트 사이드 렌더링(CSR - Client Side Rendering)</p>
+<p>화면 렌더링을 로컬 PC에서 진행, 첫 페이지 로딩 느림</p>
+<p>다수의 페이지를 마치 하나의 페이지처럼 처리 -> 사용자 몰입도 ↑</p>
+<ul>
+  <li>필요한 부분만 업데이트 -> 빠른 로딩 속도 & 반응</li>  
+  <li>체류시간 증가 -> 사용자 만족도 & 검색 엔진 순위 영향</li> 왜????<br>
+  <li>데이터 비동기 처리 -> 웹/앱 서비스 구현 가능</li>  
+  <li>트래픽 감소 -> 비동기, 부분 업데이트 동적 요소(시각화) 웹/앱 구현에 유용 => 사용자 상호작용&실시간 화면 갱신</li>
+</ul>
+<p>ex) Gamail, Facebook, Netfilx</p>
+<p>by React, Vue.js, Angular.js + Router, 상태 관리 : Redux, Vux, API : Ajax API - axios</p>
 
-  <h2>SFC(Single File Component)</h2>
-</div>
+<h2>서버 사이드 렌더링(SSR - Server Side Rendering)</h2>
+<p>서버에서 렌더링 후 클라이언트로 전송, 페이지 마다 생성 - 다중 페이지 애플리케이션(Multiple Page Application)</p>
+<p>첫 페이지 로딩 빠름</p>
+<p>검색 엔진 최적회(SEO)에 유리</p>
+  
+<h2>검색 엔진 최적화(SEO - Serach Engine Optimization)</h2>
+<p>검색 엔진 최적화</p>
+
+  
+<h2>정적 사이트 생성(SSG - Static Site Generation)</h2>
+
+
+<h2>SFC - Single File Component</h2>
+
+
