@@ -15,3 +15,14 @@
     </ul>
   </div>
 </div>
+<div>
+  <h2><a href="https://angularjs.org/">Angular.js</a></h2>
+  <div>
+    <p>구글에서 만든 JavaScript 프레임워크, SPA 문제해결을 위해 개발</p>
+    <ul>
+      <li>js 코드량↓</li>
+      <li>양방향 데이터 바인딩 가능</li>
+      <li>개발 영역 명확히 분리</li>
+    </ul>
+  </div>
+</div>
