@@ -1,20 +1,20 @@
-<div>
+
 <h1>
  상태 관리란?
 </h1>
  <p>
   애플리케이션 데이터를 효율적으로 관리<br>
  </p>
-</div>
-<div>
+
+
  <h2>Local State Management</h2>
 
  <h3>useState, useReducer</h3>
  <p>컴포넌트 내부에서 관리 -> 불필요한 랜더링 방지 - 소규모 애플리케이션</p>
  <p>단점 : prop drilling - 규모가 커지면 하위 컴포넌트로 prop 전달이 많아짐</p>
-</div>
 
-<div>
+
+
  <h2>Global State Management</h2>
  
  <h3><a href="https://react.dev/learn/scaling-up-with-reducer-and-context">Context API</a></h3>
@@ -58,10 +58,10 @@
  <h3><a href="https://zustand-demo.pmnd.rs/">Zustand</a></h3>
  <p>작은 크기와 단순한 함수 기반 API 제공하는 전역 상태 관리 라이브러리</p>
  <p>최소한의 리랜더링과 최적화 제공</p>
-</div>
 
-<div>
+
+
  <h2>Server State Management</h2>
  
  <h3>React Query</h3>
-</div>
+
