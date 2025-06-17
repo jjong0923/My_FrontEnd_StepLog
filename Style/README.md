@@ -6,9 +6,11 @@
 </ul>
 
 <h4>예시</h4>
+
 ```
 <div className="w-12 h-10 text-white bg-gray-400"></div>
 ```
+
 <p>
     w : width,
     h : height,
