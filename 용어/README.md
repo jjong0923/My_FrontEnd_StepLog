@@ -17,8 +17,16 @@
 <p>검색 엔진 최적회(SEO)에 유리</p>
   
 <h2>검색 엔진 최적화(SEO - Serach Engine Optimization)</h2>
-<p>검색 엔진 최적화</p>
-
+<p>검색 엔진에 친화적인 사이트 구축하여 자연 검색 결과를 통해 트래픽의 양과 질을 극대화</p>
+<p>=> 사용자에게 유용한 양질의 콘텐츠 제공 -> 여러 관련 키워드로 검색 결과 페이지 노출로 사이트의 온라인 가시성을 개선하는 마케팅 작업</p>
+<p>검색 엔진의 역할 : 사용자 질문 의도, 니즈에 가까운 답 제공</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<h3>검색엔진 결과 페이지(SERP - Seacrh Engine Result Page)</h3>
++광고 검색 결과(Paid Search Result)
++자연 검색 결과(Organic Search Result)
   
 <h2>정적 사이트 생성(SSG - Static Site Generation)</h2>
 
