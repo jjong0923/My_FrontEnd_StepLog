@@ -45,7 +45,11 @@ npm create vue@latest
 <p>자동 코드 분할, 환경 변수, TypeScript 지원 -> 개발 생산성 ↑</p>
 
 ```
-npx create-next-app@latest or yarn create-next-app
+npx create-next-app@latest
+or
+yarn create-next-app
 ============================================================================
-npx create-next-app@latest --typescript or yarn create-next-app -- typescript
+npx create-next-app@latest --typescript
+or
+yarn create-next-app -- typescript
 ```
