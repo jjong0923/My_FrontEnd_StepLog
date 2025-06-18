@@ -12,6 +12,25 @@
   <li>style</li>
 </ul>
 
+```
+npm create vue@latest
+============================================================================
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+============================================================================
+<script type="module">
+  import { createApp, ref } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+============================================================================
+<script type="importmap">
+  {
+    "imports": {
+      "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+    }
+  }
+</script>
+<script type="module">
+  import { createApp, ref } from 'vue'
+```
+
 <h2><a href="https://angularjs.org/">Angular.js</a></h2>
 <p>구글에서 만든 JavaScript 프레임워크, SPA 문제해결을 위해 개발</p>
   <ul>
