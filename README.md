@@ -13,7 +13,7 @@ ex) /indxe/elden-ring<br>
 const {slug} = useParams();
 ```
 
-useSerachParams - 쿼리 파라미터<br>
+useSerachParams() - 쿼리 파라미터<br>
 ex) /index?slug="elden-ring"<br>
 반환 : [URLSearchParams, setSearchParams] => 배열 []<br>
 
