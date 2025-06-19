@@ -10,12 +10,12 @@
 </ul>
 <p>ex) Gamail, Facebook, Netfilx</p>
 <p>by React, Vue.js, Angular.js + Router || 상태 관리 : Redux, Vux || API : Ajax API - axios</p>
-
+<br>
 <h2>서버 사이드 렌더링(SSR - Server Side Rendering)</h2>
 <p>서버에서 렌더링 후 클라이언트로 전송, 페이지 마다 생성 - 다중 페이지 애플리케이션(Multiple Page Application)</p>
 <p>첫 페이지 로딩 빠름</p>
 <p>검색 엔진 최적회(SEO)에 유리</p>
-  
+<br>
 <h2>검색 엔진 최적화(SEO - Serach Engine Optimization)</h2>
 <p>검색 엔진에 친화적인 사이트 구축하여 자연 검색 결과를 통해 트래픽의 양과 질을 극대화</p>
 => 사용자에게 유용한 양질의 콘텐츠 제공 -> 여러 관련 키워드로 검색 결과 페이지 노출로 사이트의 온라인 가시성을 개선하는 마케팅 작업
@@ -30,11 +30,9 @@
 <p></p>
 <p></p>
 <p></p>
-
-  
+<br>
 <h2>정적 사이트 생성(SSG - Static Site Generation)</h2>
-
-
+<br>
 <h2>SFC - Single File Component</h2>
 
 
