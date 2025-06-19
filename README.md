@@ -16,8 +16,8 @@ ex> /game?slug="elden-ring"<br>
 
 
 ```js
-const [searchParams] = useSearchParams(); => searchParams = URLSearchParams
-const slug = searchParams.get("slug"); => URLSearchParams.get("slug") = "elden-ring"
+const [searchParams] = useSearchParams(); //=> searchParams = URLSearchParams
+const slug = searchParams.get("slug"); //=> URLSearchParams.get("slug") = "elden-ring"
 ```
 
 
