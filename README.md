@@ -6,8 +6,7 @@ ex> /game/elden-ring<br>
 경로 - /game/:slug<br>
 반환 : {slug : "elden-ring"} => 객체{}
 
-```
-js
+```js
 const {slug} = useParams();
 ```
 
@@ -16,8 +15,7 @@ ex> /game?slug="elden-ring"<br>
 반환 : [URLSearchParams, setSearchParams] => 배열 []<br>
 
 
-```
-js
+```js
 const [searchParams] = useSearchParams(); => searchParams = URLSearchParams
 const slug = searchParams.get("slug"); => URLSearchParams.get("slug") = "elden-ring"
 ```
