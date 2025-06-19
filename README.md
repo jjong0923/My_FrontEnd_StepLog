@@ -1,5 +1,30 @@
 # FrontEnd_Note
 추가할 것 들<br>
+<h2>Router</h2>
+<p>useParams() - 경로 파라미터</p>
+ex> /game/elden-ring<br>
+경로 - /game/:slug<br>
+반환 : {slug : "elden-ring"} => 객체{}
+
+```
+js
+const {slug} = useParams();
+```
+
+<p>useSerachParams - 쿼리 파라미터</p>
+ex> /game?slug="elden-ring"<br>
+반환 : [URLSearchParams, setSearchParams] => 배열 []<br>
+
+
+```
+js
+const [searchParams] = useSearchParams(); => searchParams = URLSearchParams
+const slug = searchParams.get("slug"); => URLSearchParams.get("slug") = "elden-ring"
+```
+
+
+
+
 폴더(pages, components ...) 정리
 스타일(css 파일, styled-component 등) 정리
 
