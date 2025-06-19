@@ -2,20 +2,26 @@
 추가할 것 들<br>
 <h2>Router</h2>
 useParams() - 경로 파라미터<br>
-ex> /game/elden-ring<br>
+ex> /indxe/elden-ring<br>
 경로 - /game/:slug<br>
 반환 : {slug : "elden-ring"} => 객체{}
 
 ```js
+//라우팅
+<Route path="/index/:slug" element={<GameInfoPage />} />
+//
 const {slug} = useParams();
 ```
 
 useSerachParams - 쿼리 파라미터<br>
-ex> /game?slug="elden-ring"<br>
+ex> /index?slug="elden-ring"<br>
 반환 : [URLSearchParams, setSearchParams] => 배열 []<br>
 
 
 ```js
+//라우팅
+<Route path="/index" element={<GameInfoPage />} />
+//
 const [searchParams] = useSearchParams(); //=> searchParams = URLSearchParams
 const slug = searchParams.get("slug"); //=> URLSearchParams.get("slug") = "elden-ring"
 ```
