@@ -1,7 +1,7 @@
 # FrontEnd_Note
 추가할 것 들<br>
 <h2>Router</h2>
-<p>useParams() - 경로 파라미터</p>
+useParams() - 경로 파라미터<br>
 ex> /game/elden-ring<br>
 경로 - /game/:slug<br>
 반환 : {slug : "elden-ring"} => 객체{}
@@ -10,7 +10,7 @@ ex> /game/elden-ring<br>
 const {slug} = useParams();
 ```
 
-<p>useSerachParams - 쿼리 파라미터</p>
+useSerachParams - 쿼리 파라미터<br>
 ex> /game?slug="elden-ring"<br>
 반환 : [URLSearchParams, setSearchParams] => 배열 []<br>
 
