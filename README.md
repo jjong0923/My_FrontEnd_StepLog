@@ -58,8 +58,8 @@ Three.js, Chart.js
 ==========================================
 node.js
 express, nest.js
-
-
 <br>
+ES5, ES6
+
 <h3>Tools</h3>
 Git Hub, Figma
