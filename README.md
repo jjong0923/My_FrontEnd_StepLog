@@ -59,7 +59,10 @@ Three.js, Chart.js
 node.js
 express, nest.js
 <br>
-ES5, ES6
+ES5, ES6<br>
+DOM 다루기
+https://springfall.cc/article/2022-11/easy-promise-async-await
+바닐라 JS, JQuery
 
 <h3>Tools</h3>
 Git Hub, Figma
