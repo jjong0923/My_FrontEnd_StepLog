@@ -32,6 +32,11 @@ const slug = searchParams.get("slug"); //=> URLSearchParams.get("slug") = "elden
 폴더(pages, components ...) 정리
 스타일(css 파일, styled-component 등) 정리
 
+
+CI/CD 파이프라인
+Vite, Vue Query, Capacitor, scss<br>
+
+flutter
 React Native(모바일)
 페이스북에서 개발한 크로스 플랫폼
 js 코드가 React Native 브릿지를 통해 안드로이드/iOS API와 통신
@@ -54,7 +59,7 @@ Library
 시각화
 Three.js, Chart.js
 
-
+firebase
 ==========================================
 node.js
 express, nest.js
@@ -63,6 +68,7 @@ ES5, ES6<br>
 DOM 다루기
 https://springfall.cc/article/2022-11/easy-promise-async-await
 바닐라 JS, JQuery
+
 
 <h3>Tools</h3>
 Git Hub, Figma
