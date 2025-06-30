@@ -10,6 +10,14 @@
     <li>CSS 파일이 커질 수록 로딩이 느려짐</li>
 </ul>
 
+<h4>설치 방법</h4>
+
+```
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+```
+
 <h4>예시</h4>
 
 ```
