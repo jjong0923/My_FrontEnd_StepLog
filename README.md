@@ -32,9 +32,6 @@ const slug = searchParams.get("slug"); //=> URLSearchParams.get("slug") = "elden
 ```
 
 
-
-
-폴더(pages, components ...) 정리
 스타일(css 파일, styled-component 등) 정리
 
 
