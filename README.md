@@ -71,6 +71,18 @@ DOM 다루기
 https://springfall.cc/article/2022-11/easy-promise-async-await
 바닐라 JS, JQuery
 
-
 <h3>Tools</h3>
 Git Hub, Figma
+
+<h3>폴더 정리</h3>
+* components - 재사용 가능한 컴포넌트 하위 폴더 추가 가능
+* public - 이미지(index.html 직접 사용, 컴파일시 필요 X)
+* assets - 이미지 or 폰트(컴포넌트 내부에서 사용하는)
+* hooks - 커스텀 훅
+* pages - 라우팅 적용 페이지 컴포넌트
+* styles - CSS 파일
+* api(service) - api 관련 로직, 인증
+* utils - 정규표현식 패턴, 공통 함수 등 유틸 파일
+* contexts/store - Context API 관련 파일/Redux
+* constants - 공통 사용 상수 정의 파일
+* config
