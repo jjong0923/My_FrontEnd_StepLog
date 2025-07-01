@@ -9,11 +9,22 @@
 
  <h2>Local State Management</h2>
 
- <h3>useState, useReducer</h3>
+ <h3>useState, useRef, useReducer</h3>
  <p>간단한 기능은 useState, 객체가 포함되어 복잡할 때는 useReducer</p>
+ <p>useRef는 DOM 접근으로 비렌더링 상태 관리(자동 포커스, 이전 값 저장)</p>
+ ==> 기본적으로 useState, 복잡하면 useReducer, 비렌더링 상태 useRef
  <p>컴포넌트 내부에서 관리 -> 불필요한 랜더링 방지 - 소규모 애플리케이션</p>
  <p>단점 : prop drilling - 규모가 커지면 하위 컴포넌트로 prop 전달이 많아짐</p>
+ 
+```js
+#useState
+const [vlaue, setValue] = useState(m0);
 
+#useRef
+const idRef = useRef(0);
+
+#useReudcer
+```
 
 
  <h2>Global State Management</h2>
