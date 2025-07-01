@@ -43,7 +43,6 @@ distpatch({
 });
 ```
 
-
  <h2>Global State Management</h2>
  
  <h3><a href="https://react.dev/learn/scaling-up-with-reducer-and-context">Context API</a></h3>
@@ -55,6 +54,11 @@ distpatch({
  <ul>
   <li>테마/사용자/언어(지역) 데이터</li>
  </ul>
+ 
+```
+const ValueContext = createContext();
+
+```
  
  <h3><a href="https://ko.redux.js.org/introduction/getting-started">Redux</a></h3>
  <p>주요 개념</p>
