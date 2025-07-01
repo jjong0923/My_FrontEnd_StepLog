@@ -24,6 +24,23 @@ const [vlaue, setValue] = useState(m0);
 const idRef = useRef(0);
 
 #useReudcer
+function reducer(state, action){
+ switch(action.type)(
+  case:
+   return
+  case:
+   return
+  defalut:
+   return
+ )
+}
+
+const [state, dispatch] = useReducer(reducer, 상태값)
+#useReducer - distpatch
+distpatch({
+ type: "",
+ data: "",
+});
 ```
 
 
