@@ -11,11 +11,16 @@
 </ul>
 
 <h4>설치 방법</h4>
+v4부터 dist 폴더 생성
 
 ```
-npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss@latest postcss autoprefixer
 
 npx tailwindcss init -p
+===========================================================
+npm install tailwindcss @tailwindcss/cli
+
+
 ```
 
 <h4>예시</h4>
