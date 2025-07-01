@@ -1,4 +1,8 @@
 # FrontEnd_Note
+* var - 재할당/재선언 O
+* let - 재할당 O / 재선언 X
+* const - 재할당/재선언 X 
+
 추가할 것 들<br>
 axios,fetch
 <h2>React - Router</h2>
