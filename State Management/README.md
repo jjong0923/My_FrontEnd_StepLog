@@ -10,7 +10,7 @@
  <h2>Local State Management</h2>
 
  <h3>useState, useReducer</h3>
- <p>간단한 기능은 useState, 객체같이 복잡할 때는 useReducer</p>
+ <p>간단한 기능은 useState, 객체가 포함되어 복잡할 때는 useReducer</p>
  <p>컴포넌트 내부에서 관리 -> 불필요한 랜더링 방지 - 소규모 애플리케이션</p>
  <p>단점 : prop drilling - 규모가 커지면 하위 컴포넌트로 prop 전달이 많아짐</p>
 
