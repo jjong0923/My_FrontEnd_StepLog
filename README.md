@@ -1,10 +1,11 @@
 # FrontEnd_Note
 <h3>Tools</h3>
-Git Hub, Figma<br>
-
-* var - 재할당/재선언 O
-* let - 재할당 O / 재선언 X
-* const - 재할당/재선언 X 
+Git Hub, Figma
+<ul>
+ <li>var - 재할당/재선언 O</li>
+ <li>let - 재할당 O / 재선언 X</li>
+ <li>const - 재할당/재선언 X </li>
+</ul>
 
 <h3>프로젝트 파일 용도</h3>
 <ul>
