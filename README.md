@@ -23,7 +23,6 @@ Git Hub, Figma
 
 추가할 것 들<br>
 axios,fetch
-스타일(css 파일, styled-component 등) 정리
 
 
 CI/CD 파이프라인
