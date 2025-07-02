@@ -21,6 +21,10 @@ useEffect - 사이드 이펙트(데이터 가져오기, DOM 조작 등), 컴포�
 useMemo - 불필요한 연산 방지(복잡/비용이 큰 연산), 값을<br>
 
 <h2>React - Router</h2>
+
+```
+npm install react-router-dom@6 // 6 -> 버전
+```
 <h3>useParams() - 경로 파라미터</h3>
 =) /indxe/elden-ring<br>
 경로 - /game/:slug<br>
