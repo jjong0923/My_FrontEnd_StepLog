@@ -2,6 +2,7 @@
 <h3>Tools</h3>
 Git Hub, Figma
 <ul>
+ <h3>var, let, const</h3>
  <li>var - 재할당/재선언 O</li>
  <li>let - 재할당 O / 재선언 X</li>
  <li>const - 재할당/재선언 X </li>
