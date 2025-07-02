@@ -23,33 +23,6 @@ Git Hub, Figma
 
 추가할 것 들<br>
 axios,fetch
-<h2>React - Router</h2>
-useParams() - 경로 파라미터<br>
-ex) /indxe/elden-ring<br>
-경로 - /game/:slug<br>
-반환 : {slug : "elden-ring"} => 객체{}
-
-```js
-//라우팅
-<Route path="/index/:slug" element={<GameInfoPage />} />
-//
-const {slug} = useParams();
-```
-
-useSerachParams() - 쿼리 파라미터<br>
-ex) /index?slug="elden-ring"<br>
-반환 : [URLSearchParams, setSearchParams] => 배열 []<br>
-
-
-```js
-//라우팅
-<Route path="/index" element={<GameInfoPage />} />
-//
-const [searchParams] = useSearchParams(); //=> searchParams = URLSearchParams
-const slug = searchParams.get("slug"); //=> URLSearchParams.get("slug") = "elden-ring"
-```
-
-
 스타일(css 파일, styled-component 등) 정리
 
 
