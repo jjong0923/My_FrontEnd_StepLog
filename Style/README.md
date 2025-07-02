@@ -1,9 +1,29 @@
-<h2>Styled Components</h2>
+<h2><a href="https://styled-components.com/">Styled Components</a></h2>
 
 ```
 npm install styled-components
 ```
+```js
+#prop 사용
+const Box = styled.div`
+  background-color: ${(props) => props.bgColor};
+  width: 100px;
+  height: 100px;
+`;
+const Circle = styled(Box)` // 확장
+  border-radius: 50px;
+`;
 
+function App() {
+  return (
+    <Father>
+      <Box bgColor="teal" />
+      <Circle bgColor="tomato" />
+      <Box as="a" href="/" /> // 태그만 변경
+    </Father>
+  );
+}
+```
 <h2><a>Bootstrap</a></h2>
 <p>오픈소스 CSS 라이브러리</p>
 
