@@ -43,7 +43,7 @@ npm install -D tailwindcss@latest postcss autoprefixer //npm install tailwindcss
 npx tailwindcss init -p
 
 ```
-===> 안됨 왜 안되는 걸까 개빡치네 왜 init이 안되고 난리야
+===> 안됨 왜 안됨?????????????????? 개빡치네 왜 init이 안되고 난리야
 
 <h4>예시</h4>
 
