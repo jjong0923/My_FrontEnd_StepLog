@@ -38,14 +38,12 @@ function App() {
 v4부터 dist 폴더 생성
 
 ```
-npm install -D tailwindcss@latest postcss autoprefixer
+npm install -D tailwindcss@latest postcss autoprefixer //npm install tailwindcss @tailwindcss/cli
 
 npx tailwindcss init -p
-===========================================================
-npm install tailwindcss @tailwindcss/cli
-
 
 ```
+===> 안됨 왜 안되는 걸까 개빡치네 왜 init이 안되고 난리야
 
 <h4>예시</h4>
 
