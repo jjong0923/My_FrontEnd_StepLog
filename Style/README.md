@@ -1,5 +1,9 @@
 <h2>Styled Components</h2>
 
+```
+npm install styled-components
+```
+
 <h2><a>Bootstrap</a></h2>
 <p>오픈소스 CSS 라이브러리</p>
 
