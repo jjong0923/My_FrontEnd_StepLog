@@ -2,6 +2,10 @@
 <h3>Tools</h3>
 Git Hub, Figma
 
+* var - 재할당/재선언 O
+* let - 재할당 O / 재선언 X
+* const - 재할당/재선언 X 
+
 <h3>프로젝트 파일 용도</h3>
 <ul>
  <li>components - 재사용 가능한 컴포넌트 하위 폴더 추가 가능</li>
@@ -16,10 +20,6 @@ Git Hub, Figma
  <li>constants - 공통 사용 상수 정의 파일</li>
  <li>config</li>
 </ul>
-
-* var - 재할당/재선언 O
-* let - 재할당 O / 재선언 X
-* const - 재할당/재선언 X 
 
 추가할 것 들<br>
 axios,fetch
