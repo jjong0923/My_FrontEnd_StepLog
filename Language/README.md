@@ -16,7 +16,7 @@ npx create-react-app my-app --template typescript
 
 <h3>예시</h3>
 
-```js
+```
 const [count, setCount] = useState<number>(0);<br>
 //문자열
 let name :string = 'John';
