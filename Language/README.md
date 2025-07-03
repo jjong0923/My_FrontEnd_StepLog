@@ -6,6 +6,15 @@
 </ul>
 
 ```
+//기존 프로젝트 추가
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+//CRA
+npx create-react-app my-app --template typescript
+```
+
+
+```
 ex) const [count, setCount] = useState<number>(0);<br>
 let name: string = 'John';
 ```
