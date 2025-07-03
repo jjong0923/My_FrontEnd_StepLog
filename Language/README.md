@@ -16,16 +16,32 @@ npx create-react-app my-app --template typescript
 
 <h3>예시</h3>
 
-```
-ex) const [count, setCount] = useState<number>(0);<br>
-let name: string = 'John';
+```js
+const [count, setCount] = useState<number>(0);<br>
+//문자열
+let name :string = 'John';
+//배열
+let arr :(string/number ...)[] = ["kim", "park"];
+//객체( ? - 옵션)
+let obj :{ name(?) : string } = { name : "kim" };
+//유니온
+let result :string | number = "Hello"; (OR | 사용)
+//Type 설정
+type SN = string | number
+let result :SN = "Hello";
+//함수
+function add(x :number) :number{}
+//튜플
+type Arr = [string, numver]
+//객체
+type Member = {
+      name :string,
+      age :number,
+      [key :string] : string
+}
 ```
 
 <ul>
       <li>제네릭 -> <T></li>
-      <li>유니온 use |</li>
 </ul>
-            
-```
-ex) let result: string | number = identity("Hello"); (OR)
-```
+
