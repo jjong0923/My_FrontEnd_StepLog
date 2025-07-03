@@ -13,9 +13,9 @@ npm create vite@latest (. -- --template react)/ npm install
 ```
 <h4>Vite</h4>
 <ul>
-  <li>Type Script(작은 프로젝트)</li>
+  <li>TypeScript/JavaScript(작은 프로젝트)</li>
   tsc 사용, 전통적/안정적 완전환 TS 제공 // 빌드 속도가 느림
-  <li>Type Script + SWC(대규모 프로젝트)</li>
+  <li>Type Script/JavaScript + SWC(대규모 프로젝트)</li>
   빠른 컴파일 속도, 효율적 // 타입 검사 별도 필요
 </ul>
 
