@@ -38,7 +38,7 @@
 <h2>SWC(Speed Web Compiler)</h2>
 <ul>
   <li>컴파일러와 번들러 역할</li>
-  JavaScript 코드를 트랜스파일 or TypeScript 컴파일 하는 개발 도구
+  JavaScript 코드를 트랜스파일 or TypeScript 컴파일 하는 개발 도구<br>
   트랜스파일 -> ES6 이상 최신 문법을 ES5 이하로 변환
   <li>빠른 속도</li>
   Rust의 멀티스레드 처리 능력
