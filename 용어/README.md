@@ -35,4 +35,13 @@
 <br>
 <h2>SFC - Single File Component</h2>
 
+<h2>SWC(Speed Web Compiler)</h2>
+* 컴파일러와 번들러 역할
+JavaScript 코드를 트랜스파일 or TypeScript 컴파일 하는 개발 도구<br>
+트랜스파일 -> ES6 이상 최신 문법을 ES5 이하로 변환<br>
+일부 번들링 기능 지원(번들링 = 빌드)
+* 빠른 속도
+Rust의 멀티스레드 처리 능력
+* 타입 검사 X, 코드 변환
+
 
