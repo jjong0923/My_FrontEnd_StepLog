@@ -46,3 +46,13 @@ type Member = {
 </ul>
 
 tsc는 타입스크립트를 타입스크립트로 자비스크립트로 변환 -> Go 사용해서 10 빨라짐(7부터) - 대규모 프로젝트에서 좋음
+<h2>TypeScript in React</h2>
+FC : Function Component
+
+```ts
+function App: React.FC<string>{
+ 	return (
+  		<div></div>
+  	)
+}
+```
