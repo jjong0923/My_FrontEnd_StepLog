@@ -57,7 +57,7 @@ function App: React.FC<string>{
   	)
 }
 ```
-~v18 - React.FC : props에 children 담겨있어 타입 설정 X
+~v18 - React.FC : props에 children 담겨있어 타입 설정 X<br>
 v18~ - Generic 타입으로 변경 -> 타입 지정 필요
 
 <h3>Type, Interface</h3>
