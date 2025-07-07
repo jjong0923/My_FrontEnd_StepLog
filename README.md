@@ -27,12 +27,6 @@ Git Hub, Figma
 추가할 것 들<br>
 axios,fetch
 
-<br>최적화
-연산, 함수, 컴포넌트(복잡/무거운)
-- 기능 구현(프로젝트 완성) 후
-
-
-
 CI/CD 파이프라인
 Vite, Vue Query, Capacitor, scss<br>
 
