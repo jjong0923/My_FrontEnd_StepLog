@@ -30,10 +30,6 @@ js, jsx는 혼용해서 사용이 가능함 보통 js는 로직 부분, jsx는 U
 
 JSX.Element : any 타입의 props/type을 가진 React.createElement
 
-<h3>useEffect와 useMemo</h3>
-useEffect - 사이드 이펙트(데이터 가져오기, DOM 조작 등), 컴포넌트 사이드 이펙트를<br>
-useMemo - 불필요한 연산 방지(복잡/비용이 큰 연산), 값을<br>
-
 <h2>React - Router</h2>
 
 ```
@@ -62,4 +58,33 @@ const {slug} = useParams();
 //
 const [searchParams] = useSearchParams(); //=> searchParams = URLSearchParams
 const slug = searchParams.get("slug"); //=> URLSearchParams.get("slug") = "elden-ring"
+```
+
+<h2>최적화</h2>
+연산, 함수, 컴포넌트(복잡/무거운)<br>
+- 기능 구현(프로젝트 완성) 후
+
+<h3>useEffect와 useMemo</h3>
+useEffect - 사이드 이펙트(데이터 가져오기, DOM 조작 등), 컴포넌트 사이드 이펙트를<br>
+useMemo - 불필요한 연산 방지(복잡/비용이 큰 연산), 값을<br>
+
+useEffect, useMemo, useCallBack -> (() => {},[])
+
+1. useMemo - 값 메모이제이션
+2. React.memo - memo()
+3. useCallBack - 함수 선언 메모이제이션
+4. props 객체 변형 X
+* 원본 객체 수정 X(불변성 유지) - 다른 참조 주소로 메모이제이션 X(자식 컴포넌트) 
+5. 인덱스(배열)를 key로 사용 X - 필터링, 정렬 삭제 등 있을 땐 가능 하지만 일관성을 위해 사용 X
+6. useState 함수형 업데이트
+  
+```js
+const [count, setCount] = useState(0);
+
+// 일반적 - 직접 참조, 오래된(stale) 값 사용
+// 오래된 값 - 과거의 값이 클로저에 남아 있는 상태, 비동기 함수/콜백 함수
+setCount(count + 1);
+
+//함수형 업데이트(function update)
+setCount(prevCount => prevCount + 1);
 ```
