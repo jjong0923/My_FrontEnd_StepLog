@@ -70,12 +70,12 @@ useMemo - 불필요한 연산 방지(복잡/비용이 큰 연산), 값을<br>
 
 useEffect, useMemo, useCallback -> (() => {},[])
 
-1. useMemo - 값 메모이제이션<br>
-2. React.memo - memo(),br>
-3. useCallback - 함수 선언 메모이제이션<br>
+1. useMemo - 값 메모이제이션
+2. React.memo - memo()
+3. useCallback - 함수 선언 메모이제이션
 4. props 객체 변형 X
 * 원본 객체 수정 X(불변성 유지) - 다른 참조 주소로 메모이제이션 X(자식 컴포넌트) 
-5. 인덱스(배열)를 key로 사용 X - 필터링, 정렬 삭제 등 있을 땐 가능 하지만 일관성을 위해 사용 X<br>
+5. 인덱스(배열)를 key로 사용 X - 필터링, 정렬 삭제 등 있을 땐 가능 하지만 일관성을 위해 사용 X
 6. useState 함수형 업데이트
   
 ```js
