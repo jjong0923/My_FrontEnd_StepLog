@@ -45,4 +45,24 @@
   <li>타입 검사 X, 코드 변환</li>
 </ul>
 
+<h2>클로저(Closure)</h2>
+함수가 생성 될 당시 외부 변수(스코프)를 기억하는 함수
 
+```js
+// count는 inner 함수 안에 살아있음 -> 1, 2, 3
+function outer() {
+  let count = 0; // 외부 변수
+
+  function inner() {
+    count += 1;
+    console.log(count);
+  }
+
+  return inner;
+}
+
+const fn = outer(); // outer() 실행됨 → inner 함수가 반환됨
+fn(); // 1
+fn(); // 2
+fn(); // 3
+```
