@@ -62,3 +62,5 @@ ES5, ES6<br>
 DOM 다루기
 https://springfall.cc/article/2022-11/easy-promise-async-await
 바닐라 JS, JQuery
+
+<br>SWR(Stale While Revalidate), React Query
