@@ -68,11 +68,11 @@ const slug = searchParams.get("slug"); //=> URLSearchParams.get("slug") = "elden
 useEffect - 사이드 이펙트(데이터 가져오기, DOM 조작 등), 컴포넌트 사이드 이펙트를<br>
 useMemo - 불필요한 연산 방지(복잡/비용이 큰 연산), 값을<br>
 
-useEffect, useMemo, useCallBack -> (() => {},[])
+useEffect, useMemo, useCallback -> (() => {},[])
 
 1. useMemo - 값 메모이제이션
 2. React.memo - memo()
-3. useCallBack - 함수 선언 메모이제이션
+3. useCallback - 함수 선언 메모이제이션
 4. props 객체 변형 X
 * 원본 객체 수정 X(불변성 유지) - 다른 참조 주소로 메모이제이션 X(자식 컴포넌트) 
 5. 인덱스(배열)를 key로 사용 X - 필터링, 정렬 삭제 등 있을 땐 가능 하지만 일관성을 위해 사용 X
@@ -82,9 +82,78 @@ useEffect, useMemo, useCallBack -> (() => {},[])
 const [count, setCount] = useState(0);
 
 // 일반적 - 직접 참조, 오래된(stale) 값 사용
-// 오래된 값 - 과거의 값이 클로저에 남아 있는 상태, 비동기 함수/콜백 함수
+// 오래된 값 - 과거의 값이 클로저에 남아 있는 상태, 비동기 함수/콜백 함수에서 다른 값으로 작동
 setCount(count + 1);
 
 //함수형 업데이트(function update)
 setCount(prevCount => prevCount + 1);
+
+// useCallback
+const increment = useCallback(() => {
+  setCount(prev => prev + 1); //setCount(count + 1)
+}, []); //[count]
+의존성 제거 -> 함수 재생성 방지 - setCount(count + 1), [count] => setCount(prev => prev + 1)
 ```
+7. onChange 최적화
+* lodash
+* 
+```
+npm install lodash // npm install --save-dev @types/lodash
+```
+
+```js
+const [text, setText] = useState("");
+
+const sendQuery = (query: string) => {
+    // 실제 API 호출 로직
+    console.log("검색어:", query);
+  };
+
+  // ① 입력이 멈춘 후 400ms 지나면 sendQuery 호출
+  const delayedSearch = useCallback(
+    debounce((q: string) => sendQuery(q), 400), [] // 한 번만 생성
+  );
+
+  const handleChange = (event) => {
+    setText(event.target.value);             // 즉시 입력 반영
+    delayedSearch(event.target.value);       // 지연된 검색 실행
+  };
+
+  return (
+    <input
+      type="text"
+      value={text}
+      onChange={handleChange}
+      placeholder="검색어 입력"
+    />
+  );
+```
+```ts
+const [text, setText] = useState("");
+
+const sendQuery = (query: string) => {
+    // 실제 API 호출 로직
+    console.log("검색어:", query);
+  };
+
+  // ① 입력이 멈춘 후 400ms 지나면 sendQuery 호출
+  const delayedSearch = useCallback(
+    debounce((q: string) => sendQuery(q), 400), [] // 한 번만 생성
+  );
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setText(event.target.value);             // 즉시 입력 반영
+    delayedSearch(event.target.value);       // 지연된 검색 실행
+  };
+
+  return (
+    <input
+      type="text"
+      value={text}
+      onChange={handleChange}
+      placeholder="검색어 입력"
+    />
+  );
+```
+
+
