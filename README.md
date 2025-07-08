@@ -28,6 +28,9 @@ Git Hub, Figma
 axios,fetch
 
 CI/CD 파이프라인
+CI : Continuous Integration. 지속적 통합 - 자동 빌드/테스트, 병합(작은 단위로) -> 병합 충돌 예방, 이슈 해결
+CD : Continuous Delivery/Deployment(수동/자동), 지속적 제공/배포 - 
+
 Vite, Vue Query, Capacitor, scss<br>
 
 flutter
@@ -56,7 +59,7 @@ Three.js, Chart.js
 firebase
 ==========================================
 node.js
-express, nest.js
+express.js, nest.js
 <br>
 ES5, ES6<br>
 DOM 다루기
@@ -64,3 +67,5 @@ https://springfall.cc/article/2022-11/easy-promise-async-await
 바닐라 JS, JQuery
 
 <br>SWR(Stale While Revalidate), React Query
+<br>협업도구
+<br>Asana, Swagger, Docker
