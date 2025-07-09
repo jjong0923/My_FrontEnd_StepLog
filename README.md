@@ -7,10 +7,7 @@ Git Hub, Figma
 - CD : Continuous Delivery/Deployment(수동/자동), 지속적 제공/배포
 
 단계
-- 소스 코드 관리(Git 푸시)
-- 빌드
-- 테스트
-- 배포
+- 소스 코드 관리(Git 푸시) -> 빌드 -> 테스트 -> 배포
 
 도구
 - Jenkins - 다양한 플로그인, 대규모 프로젝트, 별도 서버 필요
