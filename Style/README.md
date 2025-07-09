@@ -38,12 +38,83 @@ function App() {
 v4부터 dist 폴더 생성
 
 ```
-npm install -D tailwindcss@latest postcss autoprefixer //npm install tailwindcss @tailwindcss/cli
+npm install -D tailwindcss@latest postcss autoprefixer // npm install tailwindcss @tailwindcss/cli
+
+npx tailwindcss init -p가 안되니깐 tailwind.config.js, postcss.config.js를 만들어야 됨
+===================================
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+===================================
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+===================================
+근데 module is not defined 떠서 해결하려면 .eslintrc.js 파일을 수정해야 되는데 없음 그래서 설치 해야 됨
+근데 eslint.config.js가 이미 있음 같이 쓰면 안 됨 개같은 경우를 봤나
+
+// .eslintrc.js 파일 설치
+npm install -D eslint
+
+npx eslint --init
+=======
+√ What do you want to lint? · javascript
+√ How would you like to use ESLint? · problems
+√ What type of modules does your project use? · esm
+√ Which framework does your project use? · react
+√ Does your project use TypeScript? · no / yes
+√ Where does your code run? · browser
+The config that you've selected requires the following dependencies:
+
+eslint, @eslint/js, globals, eslint-plugin-react
+√ Would you like to install them now? · No / Yes
+√ Which package manager do you want to use? · npm
+=======
+하다가 찾아 냈다
+npm install -D tailwindcss@3.3.2 postcss@8 autoprefixer@10
 
 npx tailwindcss init -p
+드디어 된다
+
+tailwind.config.js
+================
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}", // React 컴포넌트 경로 포함
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+=======or=========
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}", // React 컴포넌트 경로 포함
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+================
 
 ```
-===> 안됨 왜 안됨?????????????????? 개빡치네 왜 init이 안되고 난리야
+
 
 <h4>예시</h4>
 
