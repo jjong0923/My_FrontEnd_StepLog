@@ -3,6 +3,7 @@
 Git Hub, Figma
 
 <h3>CI/CD 파이프라인</h3>
+
 - CI : Continuous Integration. 지속적 통합 - 자동 빌드/테스트, 병합(작은 단위로) -> 병합 충돌 예방, 이슈 해결
 - CD : Continuous Delivery/Deployment(수동/자동), 지속적 제공/배포
 
