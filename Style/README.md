@@ -1,7 +1,24 @@
 <h2>CSS Module</h2>
+CSS 사용 시 class 이름을 고유한 값으로 자동 생성
+
+```js
+// App.jsx
+import styles from "./App.module.css";
+...
+<h1 className={styles.title}>Hello</h1>
+
+//App.module.css
+.title{
+  font-size : 18pc;
+}
+
+```
 
 
 <h2><a href="https://styled-components.com/">Styled Components</a></h2>
+- CSS in JS
+- 런타임에 스타일 생성
+- 스타일을 컴포넌트 단위로 관리, 동적 스타일이 많을 때(디자인 시스템, 테마 기반 프로젝트) ?
 
 ```
 npm install styled-components
@@ -27,11 +44,18 @@ function App() {
   );
 }
 ```
+장점
+- props 기반 동적 스타일링, 컴포넌트화
+
+단점
+- 런타임 오버헤드
+- 대규모 프로젝트에서 성능 이슈 가능성
+
 <h2><a>Bootstrap</a></h2>
 <p>오픈소스 CSS 라이브러리</p>
 
 <h2><a href="https://tailwindcss.com/">Tailwind CSS</a></h2>
-<p>유틸리티 우선의 CSS 프레임워크</p>
+<p>유틸리티 우선의 CSS 프레임워크, html 직접 스타일 정의</p>
 <p>모듈화, 디자인 일관성 유지, 유연성</p>
 <ul>
     <li>CSS 파일이 커질 수록 로딩이 느려짐</li>
