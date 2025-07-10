@@ -7,9 +7,9 @@
  </p>
 
 
- <h2>Local State Management</h2>
+ <h1>Local State Management</h1>
 
- <h3>useState, useRef, useReducer</h3>
+ <h2>useState, useRef, useReducer</h2>
  <p>간단한 기능은 useState, 객체가 포함되어 복잡할 때는 useReducer</p>
  <p>useRef는 DOM 접근으로 비렌더링 상태 관리(자동 포커스, 이전 값 저장)</p>
  ==> 기본적으로 useState, 복잡하면 useReducer, 비렌더링 상태 useRef
@@ -43,9 +43,9 @@ distpatch({
 });
 ```
 
- <h2>Global State Management</h2>
+ <h1>Global State Management</h1>
  
- <h3><a href="https://react.dev/learn/scaling-up-with-reducer-and-context">Context API</a></h3>
+ <h2><a href="https://react.dev/learn/scaling-up-with-reducer-and-context">Context API</a></h2>
  <p>
   prop을 사용하지 않고 데이터 공유(전역)
  </p>
@@ -60,7 +60,7 @@ const ValueContext = createContext();
 
 ```
  
- <h3><a href="https://ko.redux.js.org/introduction/getting-started">Redux</a></h3>
+ <h2><a href="https://ko.redux.js.org/introduction/getting-started">Redux</a></h2>
  <p>주요 개념</p>
  <ul>
   <li>Store : 상태 보관</li>
@@ -75,10 +75,10 @@ const ValueContext = createContext();
  <p>javascript 전역 개발 라이브러리로 Vanilla JS, Angular, Vue 등 사용 가능</p>
  <p>단점 : 초기 설정 복잡함</p>
  
- <h3>Redux-toolkit(RTK)</h3>
+ <h2>Redux-toolkit(RTK)</h2>
  <p>Redux를 간단하게 만드는 API 제공</p>
 
- <h3><a href="https://recoiljs.org/ko/">Recoil</a></h3>
+ <h2><a href="https://recoiljs.org/ko/">Recoil</a></h2>
  <p>Facebook에서 개발한 React 전용 전역 상태 관리 라이브러리, Atomic(원자) 단위로 상태 관리 -> 유연하고 재사용성 높음</p>
  <ul>
   <li>Atoms : 상태 최소 단위, 업데이트, 구독 가능</li>
@@ -88,13 +88,13 @@ const ValueContext = createContext();
  <p>Next.js와 많이 사용됨</p>
  
  
- <h3><a href="https://zustand-demo.pmnd.rs/">Zustand</a></h3>
+ <h2><a href="https://zustand-demo.pmnd.rs/">Zustand</a></h2>
  <p>작은 크기와 단순한 함수 기반 API 제공하는 전역 상태 관리 라이브러리</p>
  <p>최소한의 리랜더링과 최적화 제공</p>
 
 
 
- <h2>Server State Management</h2>
+ <h1>Server State Management</h1>
  
- <h3>React Query</h3>
+ <h2>React Query</h2>
 
