@@ -1,5 +1,10 @@
 <h2>CSS Module</h2>
-CSS 사용 시 class 이름을 고유한 값으로 자동 생성
+CSS 사용 시 class 이름을 고유한 값으로 자동 생성, 정적 스타일 정의<br>
+
+<h4>When?</h4>
+- 기존 스타일 유지하면서 컴포넌트화
+- Tailwind, Styled-Components가 과할때
+- CSS 범위 충돌
 
 ```js
 // App.jsx
@@ -14,11 +19,24 @@ import styles from "./App.module.css";
 
 ```
 
+장점
+- 클래스명 충돌(전역 오염 방지) X
+- 컴포넌트 단위로 관리
+- React 구조와 잘 맞음
 
-<h2><a href="https://styled-components.com/">Styled Components</a></h2>
-- CSS in JS
-- 런타임에 스타일 생성
-- 스타일을 컴포넌트 단위로 관리, 동적 스타일이 많을 때(디자인 시스템, 테마 기반 프로젝트) ?
+단점
+- 재사용 및 컴포넌트화 부족
+- 조건부 스타일은 유틸 추가 필요
+
+
+<h2><a href="https://styled-components.com/">Styled-Components</a></h2>
+CSS in JS<br>
+런타임에 스타일 생성<br>
+
+<h4>When?</h4>
+- 스타일을 컴포넌트 단위로 관리
+- 동적 스타일이 많을 때
+- 디자인 시스템, 테마 기반 프로젝트 ???
 
 ```
 npm install styled-components
@@ -51,12 +69,30 @@ function App() {
 - 런타임 오버헤드
 - 대규모 프로젝트에서 성능 이슈 가능성
 
+<h1>module.css와 Styled-Components</h1>
+둘 다 컴포넌트 단위로 스타일을 관리 할 수 있지만 동적으로 스타일을 적용할 땐 Styled-Components가 더 유리함<br>
+상태 기반으로 스타일 변경이 많을 땐 Styled-Components, 그 왼 moudle.css
+
 <h2><a>Bootstrap</a></h2>
-<p>오픈소스 CSS 라이브러리</p>
+오픈소스 CSS 라이브러리
 
 <h2><a href="https://tailwindcss.com/">Tailwind CSS</a></h2>
-<p>유틸리티 우선의 CSS 프레임워크, html 직접 스타일 정의</p>
-<p>모듈화, 디자인 일관성 유지, 유연성</p>
+유틸리티 우선의 CSS 프레임워크, html 직접 스타일 정의<br>
+모듈화, 디자인 일관성 유지, 유연성<br>
+
+<h4>When?</h4>
+- 빠른 UI 프로토 제작
+- 유지 보수 < 개발 속도
+
+장점
+- 빠른 스타일 작성 및 최소한의 CSS
+- hover, focus 등 내장 지원
+
+단점
+- 클래스명이 길어짐
+- 커스터마이징 복잡
+- 스타일, 로직 분리 약해짐
+
 <ul>
     <li>CSS 파일이 커질 수록 로딩이 느려짐</li>
 </ul>
