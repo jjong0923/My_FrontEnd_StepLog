@@ -1,4 +1,4 @@
-<h2>TypeScript</h2>
+<h1>TypeScript</h1>
 <ul>
       <li>js 상위집합</li>
       <li> js + 정적 타입 -> 안정성, 유지보수성</li>
