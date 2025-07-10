@@ -1,4 +1,4 @@
-<h2><a href="https://ko.vuejs.org/guide/introduction.html">Vue.js</a></h2>
+<h1><a href="https://ko.vuejs.org/guide/introduction.html">Vue.js</a></h1>
 <p>UI 구축을 위한 JavaSrcipt 프레임워크</p>
 <ul>
   <li>선언적 랜더링(Declarative Rendering) - html을 template으로 확장, 선언적으로 작성</li>
@@ -31,7 +31,7 @@ npm create vue@latest
   import { createApp, ref } from 'vue'
 ```
 
-<h2><a href="https://angularjs.org/">Angular.js</a></h2>
+<h1><a href="https://angularjs.org/">Angular.js</a></h1>
 <p>구글에서 만든 JavaScript 프레임워크, SPA 문제해결을 위해 개발</p>
   <ul>
     <li>js 코드량↓</li>
@@ -40,7 +40,7 @@ npm create vue@latest
   </ul>
   <a href="https://choonsdevlog.tistory.com/entry/AngularCLI">Angular.js 시작하러 가기</a>
   
-<h2><a href="https://nextjs.org/">Next.js</a></h2>
+<h1><a href="https://nextjs.org/">Next.js</a></h1>
 <p>React 기반 서버사이드 렌더링(SSR) 프레임워크 - 서버측에서도 렌더링 -> 로딩 속도 개선, 검색 엔진 최적화(SEO)에 유리</p>
 <p>자동 코드 분할, 환경 변수, TypeScript 지원 -> 개발 생산성 ↑</p>
 
