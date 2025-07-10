@@ -1,5 +1,6 @@
 <h1>CSS Module</h1>
 CSS 사용 시 class 이름을 고유한 값으로 자동 생성, 정적 스타일 정의<br>
+적용 방법 : 파일명.moudle.css 생성 후 import
 
 <h4>When?</h4>
 
