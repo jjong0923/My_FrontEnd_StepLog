@@ -35,6 +35,7 @@ CSS in JS<br>
 런타임에 스타일 생성<br>
 
 <h4>When?</h4>
+
 - 스타일을 컴포넌트 단위로 관리
 - 동적 스타일이 많을 때
 - 디자인 시스템, 테마 기반 프로젝트 ???
@@ -82,6 +83,7 @@ function App() {
 모듈화, 디자인 일관성 유지, 유연성<br>
 
 <h4>When?</h4>
+
 - 빠른 UI 프로토 제작
 - 유지 보수 < 개발 속도
 
@@ -179,10 +181,8 @@ module.exports = {
 
 ```
 
-
-<h4>예시</h4>
-
 ```
+// 예시
 <div className="w-12 h-10 text-white bg-gray-400"></div>
 <div className="w-full h-10 bg-red-400 text-blue-200">text</div>
 <div className="flex bg-slate-100 mt-3"></div>
