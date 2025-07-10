@@ -12,8 +12,7 @@ CSS 사용 시 class 이름을 고유한 값으로 자동 생성, 정적 스타�
 import styles from "./App.module.css";
 ...
 <h1 className={styles.title}>Hello</h1>
-```
-```
+
 //App.module.css
 .title{
   font-size : 18px;
