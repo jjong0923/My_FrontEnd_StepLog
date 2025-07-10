@@ -2,6 +2,7 @@
 CSS 사용 시 class 이름을 고유한 값으로 자동 생성, 정적 스타일 정의<br>
 
 <h4>When?</h4>
+
 - 기존 스타일 유지하면서 컴포넌트화
 - Tailwind, Styled-Components가 과할때
 - CSS 범위 충돌
