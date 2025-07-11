@@ -13,9 +13,7 @@
 </ul>
 
 ```
-npm create vue@latest
-
-npm install
+npm create vue@latest / npm install
 ```
 ```js
 ============================================================================
@@ -36,12 +34,15 @@ npm install
 ```
 
 <h1><a href="https://angularjs.org/">Angular.js</a></h1>
-<p>구글에서 만든 JavaScript 프레임워크, SPA 문제해결을 위해 개발</p>
+구글에서 만든 JavaScript 프레임워크, SPA 문제해결을 위해 개발<br>
+
+
   <ul>
     <li>js 코드량↓</li>
     <li>양방향 데이터 바인딩 가능</li>
     <li>개발 영역 명확히 분리</li>
   </ul>
+
   <a href="https://choonsdevlog.tistory.com/entry/AngularCLI">Angular.js 시작하러 가기</a>
   
 <h1><a href="https://nextjs.org/">Next.js</a></h1>
