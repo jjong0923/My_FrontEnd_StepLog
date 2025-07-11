@@ -33,15 +33,32 @@ npm create vue@latest / npm install
   import { createApp, ref } from 'vue'
 ```
 
-<h1><a href="https://angularjs.org/">Angular.js</a></h1>
-구글에서 만든 JavaScript 프레임워크, SPA 문제해결을 위해 개발<br>
+<h1><a href="https://angularjs.org/">Angular(AngularJS/Angular)</a></h1>
+구글에서 만든 JavaScript SPA 프레임워크, 웹/앱을 동시에 구현 할 수 있음<br>
 
+- AngularJS - 구버전(버전1 JavaScript 기반)
+- Angular - 신버전(버번2- TypeScript 기반)
 
-  <ul>
-    <li>js 코드량↓</li>
-    <li>양방향 데이터 바인딩 가능</li>
-    <li>개발 영역 명확히 분리</li>
-  </ul>
+특징<br>
+
+- TS 기반 - 대규모 프로젝트에서 유지 보수/안정성
+- ES6 문법
+- SPA(라우팅 시스템)
+- MVVN(Model-View-View Model) - 컴포넌트 기반, 양방향 데이터 바인딩(모델-뷰 자동 동기화 -> 즉시/자동 반영)
+
+```
+//Angular Cli 확장자
+
+npm install -g @angular/cli
+
+// ~v17
+ng new first-app --no-standalone
+
+// v17~
+ng new first-app
+
+//zone.js 라이브러리 - 변경 감지, 비동기 작업 감지
+```
 
   <a href="https://choonsdevlog.tistory.com/entry/AngularCLI">Angular.js 시작하러 가기</a>
   
