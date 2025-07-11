@@ -33,7 +33,7 @@ npm create vue@latest / npm install
   import { createApp, ref } from 'vue'
 ```
 
-<h1><a href="https://angularjs.org/">Angular(AngularJS/Angular)</a></h1>
+<h1><a href="https://angularjs.org/">Angular(AngularJS)</a></h1>
 구글에서 만든 JavaScript SPA 프레임워크, 웹/앱을 동시에 구현 할 수 있음<br>
 
 - AngularJS - 구버전(버전1 JavaScript 기반)
