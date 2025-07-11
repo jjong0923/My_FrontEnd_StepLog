@@ -39,7 +39,6 @@ npm create vue@latest / npm install
 - Angular - 신버전(버번2- TypeScript 기반)
 
 특징<br>
-
 - TS 기반 - 대규모 프로젝트에서 유지 보수/안정성
 - ES6 문법
 - SPA(라우팅 시스템)
@@ -60,8 +59,8 @@ ng serve (--open)
 ```
   
 <h1><a href="https://nextjs.org/">Next.js</a></h1>
-<p>React 기반 서버사이드 렌더링(SSR) 프레임워크 - 서버측에서도 렌더링 -> 로딩 속도 개선, 검색 엔진 최적화(SEO)에 유리</p>
-<p>자동 코드 분할, 환경 변수, TypeScript 지원 -> 개발 생산성 ↑</p>
+React 기반 서버사이드 렌더링(SSR) 프레임워크 - 서버측에서도 렌더링 -> 로딩 속도 개선, 검색 엔진 최적화(SEO)에 유리<br>
+자동 코드 분할, 환경 변수, TypeScript 지원 -> 개발 생산성 ↑<br>
 
 ```
 npx create-next-app@latest
