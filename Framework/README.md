@@ -1,4 +1,4 @@
-<h1><a href="https://ko.vuejs.org/guide/introduction.html">Vue.js</a></h1>
+<h1><a href="https://ko.vuejs.org/guide/introduction.html">Vue.js - 5173</a></h1>
 UI 구축을 위한 JavaSrcipt 프레임워크<br>
 
 - 선언적 랜더링(Declarative Rendering) - html을 template으로 확장, 선언적으로 작성
@@ -32,7 +32,7 @@ npm create vue@latest / npm install
   import { createApp, ref } from 'vue'
 ```
 
-<h1><a href="https://angularjs.org/">Angular(AngularJS)</a></h1>
+<h1><a href="https://angularjs.org/">Angular(AngularJS) - 4200</a></h1>
 구글에서 만든 JavaScript SPA 프레임워크, 웹/앱을 동시에 구현 할 수 있음<br>
 
 - AngularJS - 구버전(버전1 JavaScript 기반)
