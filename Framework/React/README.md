@@ -9,7 +9,7 @@ npx create-react-app .
 yarn create react-app .
 
 #Vite
-npm create vite@latest (. -- --template react)/ npm install
+npm create vite@latest (. -- --template react) / npm install
 ```
 <h4>Vite</h4>
 <ul>
