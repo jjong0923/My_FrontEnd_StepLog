@@ -1,6 +1,5 @@
 <h1><a href="https://ko.vuejs.org/guide/introduction.html">Vue.js</a></h1>
 UI 구축을 위한 JavaSrcipt 프레임워크<br>
-
 - 선언적 랜더링(Declarative Rendering) - html을 template으로 확장, 선언적으로 작성
 - 반응성(Reactivity) - 상태 변경 추적, DOM 효율적으로 자동 업데이트
 
