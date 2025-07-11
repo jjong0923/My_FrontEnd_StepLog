@@ -59,8 +59,6 @@ ng new first-app
 
 ng serve (--open)
 ```
-
-  <a href="https://choonsdevlog.tistory.com/entry/AngularCLI">Angular.js 시작하러 가기</a>
   
 <h1><a href="https://nextjs.org/">Next.js</a></h1>
 <p>React 기반 서버사이드 렌더링(SSR) 프레임워크 - 서버측에서도 렌더링 -> 로딩 속도 개선, 검색 엔진 최적화(SEO)에 유리</p>
