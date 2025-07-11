@@ -1,4 +1,4 @@
-<h1><a src="https://ko.legacy.reactjs.org/">React</a></h1>
+<h1><a src="https://ko.legacy.reactjs.org/">React - 3000(CRA),5173(Vite)</a></h1>
 
 React는 JavaScript 라이브러리 중 하나이지만 React 생태계는 Router, Next.js, Rudux 등 굉장히 큼<br>
 
