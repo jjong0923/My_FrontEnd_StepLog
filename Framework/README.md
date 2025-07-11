@@ -44,7 +44,7 @@ npm create vue@latest / npm install
 - TS 기반 - 대규모 프로젝트에서 유지 보수/안정성
 - ES6 문법
 - SPA(라우팅 시스템)
-- MVVN(Model-View-View Model) - 컴포넌트 기반, 양방향 데이터 바인딩(모델-뷰 자동 동기화 -> 즉시/자동 반영)
+- MVVM(Model-View-View Model) - 컴포넌트 기반, 양방향 데이터 바인딩(모델-뷰 자동 동기화 -> 즉시/자동 반영)
 
 ```
 //Angular Cli 확장자
@@ -54,10 +54,10 @@ npm install -g @angular/cli
 // ~v17
 ng new first-app --no-standalone
 
-// v17~
+// v17~, zone.js 라이브러리 - 변경 감지, 비동기 작업 감지
 ng new first-app
 
-//zone.js 라이브러리 - 변경 감지, 비동기 작업 감지
+ng serve (--open)
 ```
 
   <a href="https://choonsdevlog.tistory.com/entry/AngularCLI">Angular.js 시작하러 가기</a>
