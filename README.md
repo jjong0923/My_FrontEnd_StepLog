@@ -80,6 +80,17 @@ DOM 다루기
 https://springfall.cc/article/2022-11/easy-promise-async-await
 바닐라 JS, JQuery
 
-<br>SWR(Stale While Revalidate), React Query
+<br>SWR(Stale While Revalidate)<br>
+hook 형태 SWR 라이브러리 in React<br>
+
+```
+npm install swr
+
+yarn add swr
+```
+
+
+
+React Query
 <br>협업도구
 <br>Asana, Swagger, Docker
