@@ -123,7 +123,7 @@ export const fetchData = async () => {
   }
 };
 ```
-<h1><a href="https://swr.vercel.app/ko">SWR(Stale While Revalidate)</a><h1>
+<h1><a href="https://swr.vercel.app/ko">SWR(Stale While Revalidate)</a></h1>
 hook 형태 SWR 라이브러리 in React<br>
 SWR 내부 캐시 데이터를 확인 후 있으면 가져오고 없으면 업데이트<br>
 자동 캐싱/재요청, 로딩/에러 관리
