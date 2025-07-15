@@ -142,7 +142,8 @@ yarn add swr
 ```js
 import useSWR from 'swr'
 
-const fetcher = (url) => fetch(url).then((res) => res.json()); // const fetcher = (url) => axios.get(url).then(res => res.data);
+const fetcher = (url) => fetch(url).then((res) => res.json());
+// const fetcher = (url) => axios.get(url).then(res => res.data);
 
 const { data, error, isLoading } = useSWR(
     "https://jsonplaceholder.typicode.com/posts",
@@ -195,7 +196,8 @@ node.js
 express.js, nest.js
 <br>
 ES5, ES6<br>
-DOM 다루기
+DOM 다루기<br>
+
 https://springfall.cc/article/2022-11/easy-promise-async-await
 바닐라 JS, JQuery
 
