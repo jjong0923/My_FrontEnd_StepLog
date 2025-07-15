@@ -41,7 +41,89 @@ Git Hub, Figma
 </ul>
 
 추가할 것 들<br>
-axios,fetch
+axios,fetch<br>
+비동기 HTTP 통신<br>
+<h2>Axios</h2>
+Node.js와 브라우저를 위한 Promise API HTTP 통신 외부 라이브러리, promise 객체 반환
+
+```
+npm install axios
+```
+장점
+
+- 다양한 기능(JSON/문자열자동변환)과 브라우저 호환성이 뛰어남
+
+옵션
+<ul>
+ <li>baseURL - 공통 URL</li>
+ <li>params - 쿼리스트링(key값)</li>
+ <li>methon - 요청방식</li>
+ <li>url - 요청 경로</li>
+ <li>data - 요청 본문 데이터</li>
+ <li>headers - HTTP 헤더 설정(인증)</li>
+ <li>timeout - timeout 설정</li>
+</ul>
+
+```js
+// 예시
+// 인스턴스 방식 - 재사용성, 유지보수 용이
+const api = axios.create({
+  baseURL: "https://api.rawg.io/api",
+  params: {
+    key: API_KEY,
+  },
+});
+
+export const fetchGameInfo = async (slug) => {
+  const res = await api.get(`/games/${slug}`);
+  return res.data;
+};
+
+// 직접 사용 방식 - 간단한 요청
+export const fetchGameInfo = (slug) => {
+  return axios({
+    method: "get",
+    baseURL: "https://api.rawg.io/api",
+    url: `/games/${slug}`,
+  });
+};
+```
+
+<h2>Fetch</h2>
+ES6 이후 Promise 기반 JavaScript 내장 라이브러리
+
+단점
+
+- 지원되지 않는 브라우저 존재(IE11)
+- 네트워크 에러 발생 시 timeout을 계속해서 기다려야 됨
+- 변환 과정 필요
+
+```js
+// 예시
+const BASE_URL = "https://jsonplaceholder.typicode.com";
+
+export const getPost = async (id) => {
+  const res = await fetch(`${BASE_URL}/posts/${id}`);
+  if (!res.ok) throw new Error("데이터 불러오기 실패");
+  return res.json(); //함수 외부에서 에러 처리
+};
+
+// await 사용 할 때 함수 내부에서 에러 처리
+export const fetchData = async () => {
+  try {
+    const res = await fetch("https://api.example.com/posts");
+
+    if (!res.ok) throw new Error("서버 에러");
+
+    const data = await res.json();
+    return data;
+  } catch (err) {
+    console.error("Fetch 실패:", err);
+    throw err;
+  }
+};
+```
+ 
 
 Vite, Vue Query, Capacitor, scss<br>
 
