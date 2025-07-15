@@ -123,7 +123,44 @@ export const fetchData = async () => {
   }
 };
 ```
+<h1><a href="https://swr.vercel.app/ko">SWR(Stale While Revalidate)</a><h1>
+hook 형태 SWR 라이브러리 in React<br>
+SWR 내부 캐시 데이터를 확인 후 있으면 가져오고 없으면 업데이트<br>
+자동 캐싱/재요청, 로딩/에러 관리
+
+사용
+- 리스트/상세 페이지에서 자동 요청
+- SSR or Next.js 환경
+- 자주 보는 데이터(공지사항, 유저정보 등)
+
+```
+npm install swr
+
+yarn add swr
+```
+
+```js
+import useSWR from 'swr'
+
+const fetcher = (url) => fetch(url).then((res) => res.json()); // const fetcher = (url) => axios.get(url).then(res => res.data);
+
+const { data, error, isLoading } = useSWR(
+    "https://jsonplaceholder.typicode.com/posts",
+    fetcher
+  );
+
+  if (isLoading) return <p>로딩 중...</p>;
+  if (error) return <p>에러 발생!</p>;
+=================================================================
+function Profile() {
+  const { data, error, isLoading } = useSWR('/api/user', fetcher)
  
+  if (error) return <div>failed to load</div>
+  if (isLoading) return <div>loading...</div>
+  return <div>hello {data.name}!</div>
+}
+```
+
 
 Vite, Vue Query, Capacitor, scss<br>
 
@@ -161,16 +198,6 @@ ES5, ES6<br>
 DOM 다루기
 https://springfall.cc/article/2022-11/easy-promise-async-await
 바닐라 JS, JQuery
-
-<br>SWR(Stale While Revalidate)<br>
-hook 형태 SWR 라이브러리 in React<br>
-
-```
-npm install swr
-
-yarn add swr
-```
-
 
 
 React Query
