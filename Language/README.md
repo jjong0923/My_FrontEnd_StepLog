@@ -129,7 +129,7 @@ const user :User = {
 <h3>JSX.Element</h3>
 
 ```ts
-unction App(): JSX.Element {
+function App(): JSX.Element {
   return <div>Hello</div>;
 }
 ```
