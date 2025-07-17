@@ -59,30 +59,30 @@ npm install react-router-dom@6 // 6 -> 버전
 ```js
 // 일반적인 라우팅 방식
 <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
+  </Routes>
 </BrowserRouter>
 ```
 ```js
 // 중첩 레이아웃이 있는 경우
 <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />}>
-          <Route index element={<HomePage />} />
-          <Route path="courses">
-            <Route index element={<CourseListPage />} />
-            <Route path=":courseSlug" element={<CoursePage />} />
-          </Route>
-          <Route path="questions">
-            <Route index element={<QuestionListPage />} />
-            <Route path=":questionId" element={<QuestionPage />} />
-          </Route>
-          <Route path="wishlist" element={<WishlistPage />} />
-          <Route path="*" element={<NotFoundPage />}></Route>
-        </Route>
-      </Routes>
+  <Routes>
+    <Route path="/" element={<App />}>
+      <Route index element={<HomePage />} />
+      <Route path="courses">
+        <Route index element={<CourseListPage />} />
+        <Route path=":courseSlug" element={<CoursePage />} />
+      </Route>
+      <Route path="questions">
+        <Route index element={<QuestionListPage />} />
+        <Route path=":questionId" element={<QuestionPage />} />
+      </Route>
+      <Route path="wishlist" element={<WishlistPage />} />
+      <Route path="*" element={<NotFoundPage />}></Route>
+    </Route>
+  </Routes>
 </BrowserRouter>
 
 // 최상위 컴포넌트에서 BrowerRouter로 감싼다면 중첩 라우팅 제거해야 됨
