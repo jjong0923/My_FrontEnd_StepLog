@@ -41,7 +41,7 @@ Git Hub, Figma
 </ul>
 
 
-DOM(Dcoument Object Model) 다루기<br>
+<h2>DOM(Dcoument Object Model)</h2>
 
 - HTML 문서를 객체화 한 것<br>
 
