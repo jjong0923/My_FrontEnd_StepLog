@@ -49,8 +49,6 @@ Git Hub, Figma
 <img src="./images/DOM.png" style="width : 800px">
 
 <h1>추가할 것들</h1>
-axios,fetch<br>
-비동기 HTTP 통신<br>
 <h2>Axios</h2>
 Node.js와 브라우저를 위한 Promise API HTTP 통신 외부 라이브러리, promise 객체 반환
 
@@ -98,7 +96,7 @@ export const fetchGameInfo = (slug) => {
 ```
 
 <h2>Fetch</h2>
-ES6 이후 Promise 기반 JavaScript 내장 라이브러리
+ES6 이후 Promise 기반 JavaScript 내장 라이브러리, JavaScript API
 
 단점
 
