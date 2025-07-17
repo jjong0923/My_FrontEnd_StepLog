@@ -52,6 +52,9 @@ function App() {
 
 <h2>React Hooks</h2>
 
+- 리액트 기능을 클래스 없이 함수형 컴포넌트에서 사용할 수 있게 해준다.
+
+
 
 <h2>React - Router</h2>
 
