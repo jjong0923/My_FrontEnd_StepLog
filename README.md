@@ -40,11 +40,12 @@ Git Hub, Figma
  <li>config</li>
 </ul>
 
-추가할 것 들<br>
 
 DOM(Dcoument Object Model) 다루기<br>
+HTML 문서를 객체화 한 것
 
-추가<br>
+
+<h1>추가할 것들</h1>
 axios,fetch<br>
 비동기 HTTP 통신<br>
 <h2>Axios</h2>
