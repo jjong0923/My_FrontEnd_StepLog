@@ -3,20 +3,20 @@
 React는 JavaScript 라이브러리 중 하나이지만 React 생태계는 Router, Next.js, Rudux 등 굉장히 큼<br>
 
 ```
-#CRA
+// CRA
 npm init recat-app .
 npx create-react-app .
 yarn create react-app .
 
-#Vite
+// Vite
 npm create vite@latest (. -- --template react) / npm install
 ```
-<h4>Vite</h4>
+<h3>Vite</h3>
 <ul>
   <li>TypeScript/JavaScript(작은 프로젝트)</li>
-  tsc 사용, 전통적/안정적 완전환 TS 제공 // 빌드 속도가 느림
+  tsc 사용, 전통적/안정적 완전환 TS 제공 - 빌드 속도가 느림
   <li>Type Script/JavaScript + SWC(대규모 프로젝트)</li>
-  빠른 컴파일 속도, 효율적 // 타입 검사 별도 필요
+  빠른 컴파일 속도, 효율적 - 타입 검사 별도 필요
 </ul>
 
 <h3>js와 jsx</h3>
@@ -24,8 +24,30 @@ js, jsx는 혼용해서 사용이 가능함 보통 js는 로직 부분, jsx는 U
 
 <h3>컴포넌트</h3>
 <h4>클래스형 컴포넌트</h4>
+
+```js
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1>React</h1>
+      </div>
+    );
+  }
+}
+```
 반환 : ReactNode<br>
 <h4>함수형 컴포넌트</h4>
+
+```js
+function App() {
+  return (
+    <div>
+      <h1>React</h1>
+    </div>
+  );
+}
+```
 반환 : ReactElement - React.creageElement<br>
 
 JSX.Element : any 타입의 props/type을 가진 React.createElement
