@@ -41,6 +41,10 @@ Git Hub, Figma
 </ul>
 
 추가할 것 들<br>
+
+DOM(Dcoument Object Model) 다루기<br>
+
+추가<br>
 axios,fetch<br>
 비동기 HTTP 통신<br>
 <h2>Axios</h2>
@@ -196,7 +200,6 @@ node.js
 express.js, nest.js
 <br>
 ES5, ES6<br>
-DOM(Dcoument Object Model) 다루기<br>
 
 https://springfall.cc/article/2022-11/easy-promise-async-await
 바닐라 JS, JQuery
