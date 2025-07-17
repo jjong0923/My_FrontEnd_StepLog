@@ -43,7 +43,7 @@ Git Hub, Figma
 
 DOM(Dcoument Object Model) 다루기<br>
 HTML 문서를 객체화 한 것
-<img src="./images/DOM.png">
+<img src="./images/DOM.png" style="width : 800px">
 
 <h1>추가할 것들</h1>
 axios,fetch<br>
