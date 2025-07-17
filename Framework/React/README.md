@@ -12,12 +12,13 @@ yarn create react-app .
 npm create vite@latest (. -- --template react) / npm install
 ```
 <h3>Vite</h3>
-<ul>
-  <li>TypeScript/JavaScript(작은 프로젝트)</li>
-  tsc 사용, 전통적/안정적 완전환 TS 제공 - 빌드 속도가 느림
-  <li>Type Script/JavaScript + SWC(대규모 프로젝트)</li>
-  빠른 컴파일 속도, 효율적 - 타입 검사 별도 필요
-</ul>
+> [!TIP]
+> <ul>
+>  <li>TypeScript/JavaScript(작은 프로젝트)</li>
+>  tsc 사용, 전통적/안정적 완전환 TS 제공 - 빌드 속도가 느림
+>  <li>Type Script/JavaScript + SWC(대규모 프로젝트)</li>
+>  빠른 컴파일 속도, 효율적 - 타입 검사 별도 필요
+> </ul>
 
 <h3>js와 jsx</h3>
 js, jsx는 혼용해서 사용이 가능함 보통 js는 로직 부분, jsx는 UI 부분으로 사용됨<br>
@@ -50,6 +51,9 @@ function App() {
 }
 // 반환 : ReactElement - React.creageElement
 ```
+
+<h2>React Hooks</h2>
+
 
 <h2>React - Router</h2>
 
