@@ -20,7 +20,8 @@ npm create vite@latest (. -- --template react) / npm install
 </ul>
 
 <h3>js와 jsx</h3>
-js, jsx는 혼용해서 사용이 가능함 보통 js는 로직 부분, jsx는 UI 부분으로 사용됨
+js, jsx는 혼용해서 사용이 가능함 보통 js는 로직 부분, jsx는 UI 부분으로 사용됨<br>
+JSX.Element : any 타입의 props/type을 가진 React.createElement
 
 <h3>컴포넌트</h3>
 <h4>클래스형 컴포넌트</h4>
@@ -35,8 +36,8 @@ class App extends Component {
     );
   }
 }
+// 반환 : ReactNode
 ```
-반환 : ReactNode<br>
 <h4>함수형 컴포넌트</h4>
 
 ```js
@@ -47,10 +48,8 @@ function App() {
     </div>
   );
 }
+// 반환 : ReactElement - React.creageElement
 ```
-반환 : ReactElement - React.creageElement<br>
-
-JSX.Element : any 타입의 props/type을 가진 React.createElement
 
 <h2>React - Router</h2>
 
