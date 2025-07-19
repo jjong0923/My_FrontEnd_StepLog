@@ -81,8 +81,8 @@ Node.js와 브라우저를 위한 Promise API HTTP 통신 외부 라이브러리
 ```
 npm install axios
 ```
-장점
 
+장점
 - 다양한 기능(JSON/문자열자동변환)과 브라우저 호환성이 뛰어남
 
 옵션
@@ -122,10 +122,9 @@ export const fetchGameInfo = (slug) => {
 ```
 
 <h2>Fetch</h2>
-ES6 이후 Promise 기반 JavaScript 내장 라이브러리, JavaScript API
+ES6 이후 Promise 기반 JavaScript 내장 라이브러리, JavaScript API<br>
 
 단점
-
 - 지원되지 않는 브라우저 존재(IE11)
 - 네트워크 에러 발생 시 timeout을 계속해서 기다려야 됨
 - 변환 과정 필요
