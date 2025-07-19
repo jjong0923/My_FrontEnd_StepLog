@@ -17,12 +17,38 @@ Git Hub, Figma
 - CircleCI
 - ...
 
+<h2>ES5, ES6</h2>
+ES(ECMAScript)란?
+<li>모든 브라우저에서 동일하게 동작하지 않는 크로스 브라이징 이슈를 해결하기 위해 JavaScript를 표준화 한 것</li>
+<h3>차이점</h3>
+
+- 변수 선언
+  - ES5 - var
+  - ES6 - var + let + const
+- 화살표 함수
+  ```js
+  // ES5
+  var func = function(arg1, arg2) {console.log("ES5")}
+  // ES6
+  let func = (arg1, arg2) => {console.log("ES6")}
+  ```
+- 템플릿 리터럴
+  ```js
+  // Es5
+  console.log("저의 이름은" + name + "이고, 나이는 " + age +"입니다.")
+  // ES6
+  console.log(`저의 이름은 ${name}이고, 나이는 ${age}살 입니다.`)
+  ```
+- 파라미터
+
+
+
 
 <h3>var, let, const</h3>
 <ul>
  <li>var - 재할당/재선언 O</li>
- <li>let - 재할당 O / 재선언 X</li>
- <li>const - 재할당/재선언 X </li>
+ <li>let - 재할당 O / 재선언 X(권장)</li>
+ <li>const - 재할당/재선언 X(권장)</li>
 </ul>
 
 <h3>프로젝트 파일 용도</h3>
@@ -168,6 +194,8 @@ function Profile() {
 }
 ```
 
+React Query
+
 
 Vite, Vue Query, Capacitor, scss<br>
 
@@ -201,12 +229,10 @@ firebase
 node.js
 express.js, nest.js
 <br>
-ES5, ES6<br>
 
 https://springfall.cc/article/2022-11/easy-promise-async-await
 바닐라 JS, JQuery
 
 
-React Query
 <br>협업도구
 <br>Asana, Swagger, Docker
