@@ -2,7 +2,7 @@
 <h2>Tools</h2>
 Git Hub, Figma
 
-<h3>CI/CD 파이프라인</h3>
+<h2>CI/CD 파이프라인</h2>
 
 - CI : Continuous Integration. 지속적 통합 - 자동 빌드/테스트, 병합(작은 단위로) -> 병합 충돌 예방, 이슈 해결
 - CD : Continuous Delivery/Deployment(수동/자동), 지속적 제공/배포
@@ -51,7 +51,7 @@ ES(ECMAScript)란?
  <li>const - 재할당/재선언 X(권장)</li>
 </ul>
 
-<h3>프로젝트 파일 용도</h3>
+<h2>프로젝트 파일 용도</h2>
 <ul>
  <li>components - 재사용 가능한 컴포넌트 하위 폴더 추가 가능</li>
  <li>public - 이미지(index.html 직접 사용, 컴파일시 필요 X)</li>
@@ -155,7 +155,7 @@ export const fetchData = async () => {
   }
 };
 ```
-<h1><a href="https://swr.vercel.app/ko">SWR(Stale While Revalidate)</a></h1>
+<h2><a href="https://swr.vercel.app/ko">SWR(Stale While Revalidate)</a></h2>
 hook 형태 SWR 라이브러리 in React<br>
 SWR 내부 캐시 데이터를 확인 후 있으면 가져오고 없으면 업데이트<br>
 자동 캐싱/재요청, 로딩/에러 관리<br>
@@ -194,13 +194,13 @@ function Profile() {
 }
 ```
 
-React Query
+<h2>React Query</h2>
 
 
 Vite, Vue Query, Capacitor, scss<br>
 
 flutter<br>
-React Native(모바일)<br>
+<h2>React Native(모바일)</h2>
 페이스북에서 개발한 크로스 플랫폼<br>
 js 코드가 React Native 브릿지를 통해 안드로이드/iOS API와 통신<br>
 브릿지 - 중간 다리 역할(카메라, GPS 등), View 기능 제어<br>
