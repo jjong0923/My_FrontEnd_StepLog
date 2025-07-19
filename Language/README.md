@@ -1,9 +1,8 @@
-<h1>TypeScript</h1>
-<ul>
-      <li>js 상위집합</li>
-      <li> js + 정적 타입 -> 안정성, 유지보수성</li>
-      <li>변수 타입 - 컴파일 결정 -> 타입 오류 X</li>
-</ul>
+<h1><a src="https://www.typescriptlang.org/docs/">TypeScript</a></h1>
+
+- js + 정적 타입 -> 안정성, 유지보수성
+- 변수 타입 - 컴파일 결정 -> 타입 오류 X
+
 <h3>적용 하는 법</h3>
 
 ```
@@ -12,6 +11,8 @@ npm install --save typescript @types/node @types/react @types/react-dom @types/j
 
 //CRA
 npx create-react-app my-app --template typescript
+
+//vite npm crate vite@latest my-app -- template react-ts
 ```
 
 <h3>예시</h3>
@@ -19,16 +20,17 @@ npx create-react-app my-app --template typescript
 ```ts
 const [count, setCount] = useState<number>(0);<br>
 //문자열
-let name :string = 'John';
+const name :string = 'John';
 //배열
-let arr :(string/number ...)[] = ["kim", "park"];
+const arr :(string/number ...)[] = ["kim", "park"];
+const arr :Array<string> = ["lim", "han"];
 //객체( ? - 옵션)
-let obj :{ name(?) : string } = { name : "kim" };
+const obj :{ name(?) : string } = { name : "kim" };
 //유니온
-let result :string | number = "Hello"; (OR | 사용)
+const result :string | number = "Hello"; (OR | 사용)
 //Type 설정
 type SN = string | number
-let result :SN = "Hello";
+const result :SN = "Hello";
 //함수
 function add(x :number) :number{}
 //튜플
@@ -39,11 +41,8 @@ type Member = {
       age :number,
       [key :string] : string
 }
+// 제네릭  = <T>
 ```
-
-<ul>
-      <li>제네릭 -> <T></li>
-</ul>
 
 tsc는 타입스크립트를 타입스크립트로 자비스크립트로 변환 -> Go 사용해서 10 빨라짐(7부터) - 대규모 프로젝트에서 좋음
 
