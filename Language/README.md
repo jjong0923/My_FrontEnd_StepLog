@@ -72,9 +72,9 @@ type : 타입 정의, 조합 등 병합, extends 불가<br>
 interface : 객체 정의 병합(동입 이름 여러번 선언), extends 가능 -> 재사용성, 확장성 ↑, with 클래스 - 재사용, 타입 안정성
 
 > [!TIP]
-> 로직/상태 관리 - 클래스
-> 재사용/상속 - 클래스, interface
-> 안정성 - inferface/type
+> - 로직/상태 관리 - 클래스
+> - 재사용/상속 - 클래스, interface
+> - 안정성 - inferface/type
 
 
 ```ts
