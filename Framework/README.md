@@ -12,6 +12,12 @@ SFC로 Vue 컴포넌트 작성<br>
 - style
 
 ```
+// CLI
+npm install -g @vue/cli
+
+vue create first-app
+
+// vite
 npm create vue@latest / npm install
 ```
 ```js
