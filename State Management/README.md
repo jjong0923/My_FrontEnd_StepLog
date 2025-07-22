@@ -99,7 +99,7 @@ npm install zustand
 ```
 
 ```js
-// count 예제 zustand 모듈화 X
+// Count 예제 zustand 모듈화 X
 import { create } from "zustand";
 import "./App.css";
 
