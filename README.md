@@ -54,7 +54,7 @@ ES(ECMAScript)란?
 <h2>프로젝트 파일 용도</h2>
 <ul>
  <li>components - 재사용 가능한 컴포넌트 하위 폴더 추가 가능</li>
- <li>public - 이미지(index.html 직접 사용, 컴파일시 필요 X)</li>
+ <li>public - 이미지(index.html 직접 사용, 컴파일시 필요 X) 등 정적 파일</li>
  <li>assets - 이미지 or 폰트(컴포넌트 내부에서 사용하는)</li>
  <li>hooks - 커스텀 훅</li>
  <li>pages - 라우팅 적용 페이지 컴포넌트</li>
