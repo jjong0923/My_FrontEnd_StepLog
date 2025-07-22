@@ -44,7 +44,6 @@ distpatch({
 ```
 
  <h1>Global State Management</h1>
- 
  <h2><a href="https://react.dev/learn/scaling-up-with-reducer-and-context">Context API</a></h2>
  <p>
   prop을 사용하지 않고 데이터 공유(전역)
@@ -57,7 +56,6 @@ distpatch({
  
 ```
 const ValueContext = createContext();
-
 ```
  
  <h2><a href="https://ko.redux.js.org/introduction/getting-started">Redux</a></h2>
@@ -86,13 +84,48 @@ const ValueContext = createContext();
  </ul>
  <p>▶ 비동기 상태 관리가 쉽고 선택적 상태 구독을 통해 성능 최적화 가능</p>
  <p>Next.js와 많이 사용됨</p>
+
+```
+npm install recoil
+```
  
  
  <h2><a href="https://zustand-demo.pmnd.rs/">Zustand</a></h2>
- <p>작은 크기와 단순한 함수 기반 API 제공하는 전역 상태 관리 라이브러리</p>
- <p>최소한의 리랜더링과 최적화 제공</p>
+ 작은 크기와 단순한 함수 기반 API 제공하는 전역 상태 관리 라이브러리<br>
+ 최소한의 리랜더링과 최적화 제공
 
+```
+npm install zustand
+```
 
+```js
+// count 예제 zustand 모듈화 X
+import { create } from "zustand";
+import "./App.css";
+
+// zustand는 모듈화를 통해서 전역 상태 관리를 할 수 있음
+const useCount = create((set) => ({
+  count: 0,
+  increase: () => set((state) => ({ count: state.count + 1 })),
+  decrease: () => set((state) => ({ count: state.count - 1 })),
+}));
+
+function App() {
+  const { count, increase, decrease } = useCount();
+
+  return (
+    <>
+      <div className="card">
+        <div>count is {count}</div>
+        <button onClick={increase}>+1</button>
+        <button onClick={decrease}>-1</button>
+      </div>
+    </>
+  );
+}
+
+export default App;
+```
 
  <h1>Server State Management</h1>
  
