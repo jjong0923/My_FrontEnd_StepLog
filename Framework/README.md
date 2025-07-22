@@ -17,6 +17,13 @@ npm install -g @vue/cli
 
 vue create first-app
 
+npm run serve
+
+git config --global --add safe.directory D:/Vue/new-project
+git status
+git add -A
+git commit -m "initial commit"
+
 // vite
 npm create vue@latest / npm install
 ```
