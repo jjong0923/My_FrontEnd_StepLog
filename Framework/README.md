@@ -7,8 +7,8 @@ UI 구축을 위한 JavaSrcipt 프레임워크<br>
 SFC로 Vue 컴포넌트 작성<br>
 
 태그들<br>
-- script
 - template
+- script
 - style
 
 ```
