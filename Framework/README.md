@@ -7,8 +7,8 @@ UI 구축을 위한 JavaSrcipt 프레임워크<br>
 SFC로 Vue 컴포넌트 작성<br>
 
 태그들<br>
-- template
 - script
+- template
 - style
 
 ```
@@ -44,6 +44,19 @@ npm create vue@latest / npm install
 <script type="module">
   import { createApp, ref } from 'vue'
 ```
+```js
+// 페이지 에러시 package.json 파일 수정 requireConfigFile 추가
+"parserOptions": {
+      "parser": "@babel/eslint-parser",
+      "requireConfigFile": false
+    }
+"rules": {
+      "no-unused-vars": "off",             // 사용하지 않는 변수
+      "vue/no-unused-components": "off"    // 사용하지 않는 컴포넌트
+    }
+```
+임포트 해놓고 안쓰면 안쓴다고 에러를 보내기 때문에 안쓰는 것은 임포트와 함께 다 지워야 함 겁나 깐깐함
+
 
 <h1><a href="https://angularjs.org/">Angular(AngularJS) - 4200</a></h1>
 구글에서 만든 JavaScript SPA 프레임워크, 웹/앱을 동시에 구현 할 수 있음<br>
