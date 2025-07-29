@@ -143,3 +143,9 @@ export default {
 };
 </script>
 ```
+<h3>emit</h3>
+이벤트 전달
+
+```js
+
+```
