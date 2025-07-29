@@ -104,3 +104,42 @@ export default {
 }
 </script>
 ```
+<h3>Props</h3>
+
+```js
+// App.vue
+<template>
+  <div>
+    <HelloWorld :msg="msg" />
+  </div>
+</template>
+<script>
+import HelloWorld from "./components/HelloWorld.vue";
+export default {
+  name: "App",
+  components: {
+    HelloWorld,
+  },
+  data() {
+    return {
+      msg: "안녕하세요"
+    };
+  },
+};
+</script>
+
+// HelloWorld.vue
+<template>
+  <div>
+    {{ msg }}
+  </div>
+</template>
+<script>
+export default {
+  name: "HelloWorld",
+  props: {
+    msg: String,
+  },
+};
+</script>
+```
