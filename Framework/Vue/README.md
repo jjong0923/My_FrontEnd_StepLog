@@ -129,6 +129,7 @@ export default {
 </script>
 
 // HelloWorld.vue
+
 <template>
   <div>
     {{ msg }}
@@ -168,6 +169,7 @@ export default {
 </script>
 
 // Emit.vue
+
 <template>
   <div>
     <button @click="clickButton">버튼</button>
