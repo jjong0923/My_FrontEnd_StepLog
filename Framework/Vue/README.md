@@ -167,7 +167,7 @@ export default {
 };
 </script>
 
-//Emit.vue
+// Emit.vue
 <template>
   <div>
     <button @click="clickButton">버튼</button>
@@ -184,5 +184,4 @@ export default {
   },
 };
 </script>
-
 ```
