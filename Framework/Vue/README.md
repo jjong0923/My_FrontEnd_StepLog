@@ -144,8 +144,45 @@ export default {
 </script>
 ```
 <h3>emit</h3>
-이벤트 전달
+자식 -> 부모 이벤트 전달
 
 ```js
+// App.vue
+<template>
+  <div>
+    <Emit @Click-child-button="alertMsg(msg)" />
+  </div>
+</template>
+<script>
+export default {
+  name: "App",
+  components: {
+    Emit,
+  },
+  methods: {
+    alertMsg(msg) {
+      console.log(msg);
+    },
+  },
+};
+</script>
+
+//Emit.vue
+<template>
+  <div>
+    <button @click="clickButton">버튼</button>
+  </div>
+</template>
+<script>
+export default {
+  name: "Emit",
+  emits: ["clickChildButton"],
+  methods: {
+    clickButton() {
+      this.$emit("clickChildButton", "자식 emit 이벤트 발생)
+    },
+  },
+};
+</script>
 
 ```
