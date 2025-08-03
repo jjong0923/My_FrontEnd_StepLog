@@ -1,5 +1,5 @@
 # FrontEnd_Note
-<h2>Tools</h2>
+## Tools
 Git Hub, Figma, GitHub Desktop, Git kraken
 
 <h2>CI/CD 파이프라인</h2>
