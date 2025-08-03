@@ -153,7 +153,7 @@ export const fetchData = async () => {
   }
 };
 ```
-<h2><a href="https://swr.vercel.app/ko">SWR(Stale While Revalidate)</a></h2>
+## <a href="https://swr.vercel.app/ko">SWR(Stale While Revalidate)</a>
 hook 형태 SWR 라이브러리 in React<br>
 SWR 내부 캐시 데이터를 확인 후 있으면 가져오고 없으면 업데이트<br>
 자동 캐싱/재요청, 로딩/에러 관리<br>
@@ -192,13 +192,13 @@ function Profile() {
 }
 ```
 
-<h2>React Query</h2>
+## React Query
 
 
 Vite, Vue Query, Capacitor, scss<br>
 
 flutter<br>
-<h2>React Native(모바일)</h2>
+## React Native(모바일)
 페이스북에서 개발한 크로스 플랫폼<br>
 js 코드가 React Native 브릿지를 통해 안드로이드/iOS API와 통신<br>
 브릿지 - 중간 다리 역할(카메라, GPS 등), View 기능 제어<br>
