@@ -2,8 +2,7 @@
 ## Tools
 Git Hub, Figma, GitHub Desktop, Git kraken
 
-<h2>CI/CD 파이프라인</h2>
-
+## CI/CD 파이프라인
 - CI : Continuous Integration. 지속적 통합 - 자동 빌드/테스트, 병합(작은 단위로) -> 병합 충돌 예방, 이슈 해결
 - CD : Continuous Delivery/Deployment(수동/자동), 지속적 제공/배포
 
@@ -17,14 +16,14 @@ Git Hub, Figma, GitHub Desktop, Git kraken
 - CircleCI
 - ...
 
-<h2>ES5, ES6</h2>
+## ES5, ES6
 ES(ECMAScript)란?
 <li>모든 브라우저에서 동일하게 동작하지 않는 크로스 브라이징 이슈를 해결하기 위해 JavaScript를 표준화 한 것</li>
-<h3>차이점</h3>
-
+### 차이점
 - 변수 선언
   - ES5 - var
   - ES6 - var + let + const
+  
 - 화살표 함수
   ```js
   // ES5
@@ -32,6 +31,7 @@ ES(ECMAScript)란?
   // ES6
   let func = (arg1, arg2) => {console.log("ES6")}
   ```
+  
 - 템플릿 리터럴
   ```js
   // Es5
@@ -44,14 +44,14 @@ ES(ECMAScript)란?
 
 
 
-<h3>var, let, const</h3>
+### var, let, const
 <ul>
  <li>var - 재할당/재선언 O</li>
  <li>let - 재할당 O / 재선언 X(권장)</li>
  <li>const - 재할당/재선언 X(권장)</li>
 </ul>
 
-<h2>프로젝트 파일 용도</h2>
+## 프로젝트 파일 용도
 <ul>
  <li>components - 재사용 가능한 컴포넌트 하위 폴더 추가 가능</li>
  <li>public - 이미지(index.html 직접 사용, 컴파일시 필요 X) 등 정적 파일</li>
@@ -67,15 +67,14 @@ ES(ECMAScript)란?
 </ul>
 
 
-<h2>DOM(Dcoument Object Model)</h2>
-
+## DOM(Dcoument Object Model)
 - HTML 문서를 객체화 한 것<br>
 
-<h3>계층 구조</h3>
+### 계층 구조
 <img src="./images/DOM.png" style="width : 800px">
 
-<h1>추가할 것들</h1>
-<h2>Axios</h2>
+# 추가할 것들
+## Axios
 Node.js와 브라우저를 위한 Promise API HTTP 통신 외부 라이브러리, promise 객체 반환
 
 ```
@@ -121,7 +120,7 @@ export const fetchGameInfo = (slug) => {
 };
 ```
 
-<h2>Fetch</h2>
+## Fetch
 ES6 이후 Promise 기반 JavaScript 내장 라이브러리, JavaScript API<br>
 
 단점
@@ -159,7 +158,7 @@ hook 형태 SWR 라이브러리 in React<br>
 SWR 내부 캐시 데이터를 확인 후 있으면 가져오고 없으면 업데이트<br>
 자동 캐싱/재요청, 로딩/에러 관리<br>
 
->  [!TIP]
+> ## When?
 > - 리스트/상세 페이지에서 자동 요청
 > - SSR or Next.js 환경
 > - 자주 보는 데이터(공지사항, 유저정보 등)
