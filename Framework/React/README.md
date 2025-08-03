@@ -11,20 +11,18 @@ yarn create react-app .
 // Vite
 npm create vite@latest (. -- --template react) / npm install
 ```
-<h3>Vite</h3>
-
+### Vite
 - TypeScript/JavaScript(작은 프로젝트)<br>
 tsc 사용, 전통적/안정적 완전환 TS 제공 - 빌드 속도가 느림
 - Type Script/JavaScript + SWC(대규모 프로젝트)<br>
 빠른 컴파일 속도, 효율적 - 타입 검사 별도 필요
 
-<h3>js와 jsx</h3>
+### js와 jsx
 js, jsx는 혼용해서 사용이 가능함 보통 js는 로직 부분, jsx는 UI 부분으로 사용됨<br>
 JSX.Element : any 타입의 props/type을 가진 React.createElement
 
-<h3>컴포넌트</h3>
-<h4>클래스형 컴포넌트</h4>
-
+### 컴포넌트
+#### 클래스형 컴포넌트
 ```js
 class App extends Component {
   render() {
@@ -37,8 +35,7 @@ class App extends Component {
 }
 // 반환 : ReactNode
 ```
-<h4>함수형 컴포넌트</h4>
-
+#### 함수형 컴포넌트
 ```js
 function App() {
   return (
@@ -50,14 +47,10 @@ function App() {
 // 반환 : ReactElement - React.creageElement
 ```
 
-<h2>React Hooks</h2>
-
+## React Hooks
 - 리액트 기능을 클래스 없이 함수형 컴포넌트에서 사용할 수 있게 해준다.
 
-
-
-<h2>React - Router</h2>
-
+## React - Router
 ```
 npm install react-router-dom@6 // 6 -> 버전
 ```
@@ -93,12 +86,17 @@ npm install react-router-dom@6 // 6 -> 버전
 // 최상위 컴포넌트에서 BrowerRouter로 감싼다면 중첩 라우팅 제거해야 됨
 ```
 
+### Link
+```js
+import { Link } from "react-router-dom";
 
-<h3>useParams() - 경로 파라미터</h3>
+<Link to="/~" state={{test : "Hello World"}}></LinK> // 데이터도 보낼 수 있
+```
+
+### useParams() - 경로 파라미터
 =) /indxe/elden-ring<br>
 경로 - /game/:slug<br>
 반환 : {slug : "elden-ring"} => 객체{}
-
 ```js
 //라우팅
 <Route path="/index/:slug" element={<GameInfoPage />} />
@@ -106,11 +104,9 @@ npm install react-router-dom@6 // 6 -> 버전
 const {slug} = useParams();
 ```
 
-<h3>useSerachParams() - 쿼리 파라미터</h3>
+### useSerachParams() - 쿼리 파라미터
 =) /index?slug="elden-ring"<br>
 반환 : [URLSearchParams, setSearchParams] => 배열 []
-
-
 ```js
 //라우팅
 <Route path="/index" element={<GameInfoPage />} /> //?slug 부분은 필요 x
@@ -119,11 +115,38 @@ const [searchParams] = useSearchParams(); //=> searchParams = URLSearchParams
 const slug = searchParams.get("slug"); //=> URLSearchParams.get("slug") = "elden-ring"
 ```
 
-<h2>최적화</h2>
+### useNavigate, useLocation
+useNavigate - router hook, 지정한 경로로 페이지 이동, 두 번째 인자로 데이터 전송 가능
+```js
+import { useNavigate } from 'react-router-dom';
+
+const navigate = useNavigate();
+
+// state 대신 replace - default false 뒤로가기 가능, true 뒤로가기 불가능
+const goToAccount = () => {
+    navigate("/account",{
+    state: {
+      userId: user.uid
+    }
+  });
+};
+```
+useLoaction - useNavigate 데이터를 받을 수 있음
+```js
+import { useLocation } from 'react-router-dom';
+
+const location = useLocation();
+
+const [userId, setUserId] = useState(
+  location.state?.userId
+);
+```
+
+## 최적화
 연산, 함수, 컴포넌트(복잡/무거운)<br>
 - 기능 구현(프로젝트 완성) 후
 
-<h3>useEffect와 useMemo</h3>
+### useEffect와 useMemo
 useEffect - 사이드 이펙트(데이터 가져오기, DOM 조작 등), 컴포넌트 사이드 이펙트를<br>
 useMemo - 불필요한 연산 방지(복잡/비용이 큰 연산), 값을<br>
 
