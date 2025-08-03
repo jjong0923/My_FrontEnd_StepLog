@@ -2,6 +2,32 @@
 ## Tools
 Git Hub, Figma, GitHub Desktop, Git kraken
 
+## vsc 플러그인
+- Live Server
+
+### 공통
+- Prettier : 자동 정렬
+- Material Icon Theme : 파일, 폴더 아이콘
+- Image preview : 코드 내 이미지 미리보기
+- HTML CSS Support : id/class 속성 자동 완성 in html
+- HTML to CSS autocompletion : id/class 속성 자동 완성 in css
+- html tag wrapper
+- HTML END Tags Labels
+- Auto Rename Tag : 태그 자동완성
+- indent-rainbow : 들여쓰기 컬러라이즈
+- colorize : css 컬러 코드 적용
+- CSS Peek
+- CSS Initial Value
+- Font Awesome Auto-complete & Preview
+
+### Style
+- vscode-styled-components
+- Tailwind CSS IntelliSense 
+### Vue
+- Vuter : 파일구조, 구문 강조, 자동완성, Linting(코드 스타일 검사)
+- Vue(Official) : vue 파일 코드 하이라이팅
+
+
 ## CI/CD 파이프라인
 - CI : Continuous Integration. 지속적 통합 - 자동 빌드/테스트, 병합(작은 단위로) -> 병합 충돌 예방, 이슈 해결
 - CD : Continuous Delivery/Deployment(수동/자동), 지속적 제공/배포
