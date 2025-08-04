@@ -1,16 +1,13 @@
-<h1><a href="https://ko.vuejs.org/guide/introduction.html">Vue.js - 8080(Cli),5173(Vite)</a></h1>
-UI 구축을 위한 JavaSrcipt 프레임워크<br>
-
+# <a href="https://ko.vuejs.org/guide/introduction.html">Vue.js - 8080(Cli),5173(Vite)</a>
+UI 구축을 위한 JavaSrcipt 프레임워크
 - 선언적 랜더링(Declarative Rendering) - html을 template으로 확장, 선언적으로 작성
 - 반응성(Reactivity) - 상태 변경 추적, DOM 효율적으로 자동 업데이트
+SFC로 Vue 컴포넌트 작성
 
-SFC로 Vue 컴포넌트 작성<br>
-
-컴포넌트 구성요소<br>
+### 컴포넌트 구성요소
 - template
 - script
 - style
-
 ```
 // CLI
 npm install -g @vue/cli
@@ -41,7 +38,6 @@ npm create vue@latest / npm install
       "vue/no-unused-components": "off"    // 사용하지 않는 컴포넌트
     }
 ```
-
 ```js
 ============================================================================
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -59,11 +55,10 @@ npm create vue@latest / npm install
 <script type="module">
   import { createApp, ref } from 'vue'
 ```
-임포트 해놓고 안쓰면 안쓴다고 에러를 보내기 때문에 안쓰는 것은 임포트와 함께 다 지워야 함 겁나 깐깐함<br>
+임포트 해놓고 안쓰면 안쓴다고 에러를 보내기 때문에 안쓰는 것은 임포트와 함께 다 지워야 함 겁나 깐깐함
 
-<h3>v-model</h3>
+### v-model
 양방향 데이터 바인딩 예시
-
 ```js
 // 입력값 변경되면 자동 업데이트/렌더링
 // React에선 onChange 함수가 필요하지만 v-model을 사용하면 함수가 필요 없음
@@ -85,9 +80,9 @@ export default {
 };
 </script>
 ```
-<h3>v-on</h3>
-이벤드 핸들링 ex) 클릭(:click), 호버(:mouseover/out), 키 입력(:keyup/down), 입력(:input)(?)
 
+### v-on
+이벤드 핸들링 ex) 클릭(:click), 호버(:mouseover/out), 키 입력(:keyup/down), 입력(:input)(?)
 ```js
 <template>
   <button v-on:click="handleClick">Click Me</button>
@@ -104,8 +99,8 @@ export default {
 }
 </script>
 ```
-<h3>Props</h3>
 
+### Props
 ```js
 // App.vue
 <template>
@@ -143,9 +138,9 @@ export default {
 };
 </script>
 ```
-<h3>emit</h3>
-자식 -> 부모 이벤트 전달
 
+### emit
+자식 -> 부모 이벤트 전달
 ```js
 // App.vue
 <template>
@@ -185,3 +180,18 @@ export default {
 };
 </script>
 ```
+
+### v-bind
+: - v-bind 축약으로 value, style, class 등에도 쓰임
+```js
+<input type="text" placeholder="Email" /> // 정적, 텍스트
+====================================================
+data() {
+  return {
+    Email: "이메일을 입력하세요"
+  }
+}
+<input type="text" :placeholder="Email" /> // 동적, 컴포넌트 data, props, computed에 정의된 변수
+```
+
+v-model 없이 실시간 감지할 때 @input 이벤트 핸들러 함수 사용
