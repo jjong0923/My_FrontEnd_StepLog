@@ -1,15 +1,10 @@
 
-<h1>
- 상태 관리란?
-</h1>
- <p>
-  애플리케이션 데이터를 효율적으로 관리<br>
- </p>
+# 상태 관리란?
+애플리케이션 데이터를 효율적으로 관리
 
+# Local State Management
 
- <h1>Local State Management</h1>
-
- <h2>useState, useRef, useReducer</h2>
+## useState, useRef, useReducer
  <p>간단한 기능은 useState, 객체가 포함되어 복잡할 때는 useReducer</p>
  <p>useRef는 DOM 접근으로 비렌더링 상태 관리(자동 포커스, 이전 값 저장)</p>
  ==> 기본적으로 useState, 복잡하면 useReducer, 비렌더링 상태 useRef
@@ -19,6 +14,8 @@
 ```js
 #useState
 const [vlaue, setValue] = useState(m0);
+
+setInputList([...inputList, inputValue]);
 
 #useRef
 const idRef = useRef(0);
