@@ -45,6 +45,7 @@ Git Hub, Figma, GitHub Desktop, Git kraken
 ## ES5, ES6
 ES(ECMAScript)란?
 <li>모든 브라우저에서 동일하게 동작하지 않는 크로스 브라이징 이슈를 해결하기 위해 JavaScript를 표준화 한 것</li>
+
 ### 차이점
 - 변수 선언
   - ES5 - var
