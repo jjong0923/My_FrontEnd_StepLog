@@ -125,6 +125,7 @@ export default {
 </script>
 
 // HelloWorld.vue
+
 <template>
   <div>
     {{ msg }}
