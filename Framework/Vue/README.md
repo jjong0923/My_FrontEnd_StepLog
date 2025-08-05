@@ -199,8 +199,6 @@ data() {
 v-model 없이 실시간 감지할 때 @input 이벤트 핸들러 함수 사용
 
 ## Vue-Router
-<router-link to=""></router-link>(<RouterLink ></RouterLink>)<br>
-<router-view />(<RouterView />) - 라우팅 경로 컴포넌트 랜더링 자리
 ```
 npm install vue-router
 
@@ -230,5 +228,8 @@ const router = createRouter({
 });
 
 export default router;
-
+```
+```js
+<router-link to=""></router-link>(<RouterLink ></RouterLink>)<br>
+<router-view />(<RouterView />) - 라우팅 경로 컴포넌트 랜더링 자리
 ```
