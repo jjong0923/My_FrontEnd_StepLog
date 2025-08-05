@@ -9,8 +9,8 @@ Ajax 요청을 통해 부분 렌더링<br>
 - 데이터 비동기 처리 -> 웹/앱 서비스 구현 가능
 - 트래픽 감소 -> 비동기, 부분 업데이트 동적 요소(시각화) 웹/앱 구현에 유용 => 사용자 상호작용&실시간 화면 갱신
 
-<p>ex) Gamail, Facebook, Netfilx</p>
-<p>by React, Vue.js, Angular.js + Router || 상태 관리 : Redux, Vux || API : Ajax API - axios</p>
+ex) Gamail, Facebook, Netfilx<br>
+by React, Vue.js, Angular.js + Router || 상태 관리 : Redux, Vux || API : Ajax API - axios
 
 # 서버 사이드 렌더링(SSR - Server Side Rendering)
 서버에서 렌더링 후 클라이언트로 전송, 페이지 마다 생성 - 다중 페이지 애플리케이션(Multiple Page Application)<br>
