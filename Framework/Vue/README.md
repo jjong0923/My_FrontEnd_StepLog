@@ -197,3 +197,36 @@ data() {
 v-model 없이 실시간 감지할 때 @input 이벤트 핸들러 함수 사용
 
 ## Vue-Router
+<router-link to=""></router-link>(<RouterLink ></RouterLink>)<br>
+<router-view />(<RouterView />) - 라우팅 경로 컴포넌트 랜더링 자리
+```
+npm install vue-router
+
+// main.js
+import router from "./router";
+
+createApp(App).use(router).mount("#app");
+
+// src/router/index.js(만들어야 됨)
+import { createRouter, createWebHistory } from "vue-router";
+import DemoPage from "../views/DemoPage.vue";
+import LoginPage from "../views/LoginPage.vue";
+
+// createWebHistory URL 표시 o, createMemoryHistory URL 표시 x, URL로 접근 x
+const router = createRouter({
+  history: createWebHistory(),
+  routes: [
+    {
+      path: "/demo",
+      component: DemoPage, // 공통 레이아웃땐 components 사용
+    },
+    {
+      path: "/login",
+      component: LoginPage,
+    },
+  ],
+});
+
+export default router;
+
+```
