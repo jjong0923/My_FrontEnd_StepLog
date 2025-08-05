@@ -32,12 +32,10 @@ Ajax 요청을 통해 부분 렌더링<br>
 # SFC - Single File Component
 
 # SWC(Speed Web Compiler)
-- 컴파일러와 번들러 역할
-  JavaScript 코드를 트랜스파일 or TypeScript 컴파일 하는 개발 도구<br>
+- 컴파일러와 번들러 역할, JavaScript 코드를 트랜스파일 or TypeScript 컴파일 하는 개발 도구<br>
   트랜스파일 -> ES6 이상 최신 문법을 ES5 이하로 변환
-- 빠른 속도
-  Rust의 멀티스레드 처리 능력
- - 타입 검사 X, 코드 변환
+- 빠른 속도, Rust의 멀티스레드 처리 능력
+  - 타입 검사 X, 코드 변환
 
 # 클로저(Closure)
 함수가 생성 될 당시 외부 변수(스코프)를 기억하는 함수
