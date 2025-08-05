@@ -234,3 +234,7 @@ export default router;
 <router-link to=""></router-link>(<RouterLink ></RouterLink>)<br>
 <router-view />(<RouterView />) - 라우팅 경로 컴포넌트 랜더링 자리
 ```
+
+## computed
+데이터 변화에 따른 반응형 UI, 캐싱
+
