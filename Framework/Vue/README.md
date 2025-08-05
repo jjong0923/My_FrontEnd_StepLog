@@ -199,6 +199,7 @@ data() {
 v-model 없이 실시간 감지할 때 @input 이벤트 핸들러 함수 사용
 
 ## Vue-Router
+React-Router는 App에서 Route를 통해 컴포넌트, Vue-Router는 index에서 routes를 통해 객체로 하고 App에 router-view가 필수
 ```
 npm install vue-router
 
