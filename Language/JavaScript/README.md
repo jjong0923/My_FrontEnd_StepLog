@@ -8,3 +8,32 @@
 alert : 출력<br>
 prompt : 입력 - console.log null 출력<br>
 confirm : 확인 - true/false, 사용자 action 확인
+
+
+## Object
+- Object.keys() // 배열로 반환
+- Object.values() // 배열로 반환
+- Object.entries() // 배열로 반환(key+value)
+- Object.fromEntries() // 배열 -> 객체
+
+### 1~10 임의의 숫자
+```js
+Math.floor(Math.random()*10)+1
+```
+### 1~100 임의의 숫자
+```js
+Math.floor(Math.random()*100)+1
+```
+
+## slice/substring/substr/trim
+- slice(n,m) : n~m-1 문자열 (음수 가능)
+- substring(n,m) :  n~m-1 문자열 (음수 x)
+- substr(n,m) : n부터 m개
+- trim : 앞/뒤 공백 제거
+
+
+
+
+
+
+
