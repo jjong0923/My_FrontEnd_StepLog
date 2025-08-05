@@ -5,9 +5,9 @@ UI 구축을 위한 JavaSrcipt 프레임워크
 SFC로 Vue 컴포넌트 작성
 
 ### 컴포넌트 구성요소
-> template
-> script
-> style
+> - template
+> - script
+> - style
 ```
 // CLI
 npm install -g @vue/cli
