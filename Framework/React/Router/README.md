@@ -1,4 +1,4 @@
-## React - Router
+# React - Router
 ```
 npm install react-router-dom@6 // 6 -> 버전
 ```
@@ -34,14 +34,14 @@ npm install react-router-dom@6 // 6 -> 버전
 // 최상위 컴포넌트에서 BrowerRouter로 감싼다면 중첩 라우팅 제거해야 됨
 ```
 
-### Link
+## Link
 ```js
 import { Link } from "react-router-dom";
 
 <Link to="/~" state={{test : "Hello World"}}></LinK> // 데이터도 보낼 수 있
 ```
 
-### useParams() - 경로 파라미터
+## useParams() - 경로 파라미터
 =) /indxe/elden-ring<br>
 경로 - /game/:slug<br>
 반환 : {slug : "elden-ring"} => 객체{}
@@ -52,7 +52,7 @@ import { Link } from "react-router-dom";
 const {slug} = useParams();
 ```
 
-### useSerachParams() - 쿼리 파라미터
+## useSerachParams() - 쿼리 파라미터
 =) /index?slug="elden-ring"<br>
 반환 : [URLSearchParams, setSearchParams] => 배열 []
 ```js
@@ -63,7 +63,7 @@ const [searchParams] = useSearchParams(); //=> searchParams = URLSearchParams
 const slug = searchParams.get("slug"); //=> URLSearchParams.get("slug") = "elden-ring"
 ```
 
-### useNavigate, useLocation
+## useNavigate, useLocation
 useNavigate - router hook, 지정한 경로로 페이지 이동, 두 번째 인자로 데이터 전송 가능
 ```js
 import { useNavigate } from 'react-router-dom';
