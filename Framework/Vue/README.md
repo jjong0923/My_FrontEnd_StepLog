@@ -4,7 +4,7 @@ UI 구축을 위한 JavaSrcipt 프레임워크
 - 반응성(Reactivity) - 상태 변경 추적, DOM 효율적으로 자동 업데이트
 SFC로 Vue 컴포넌트 작성
 
-### 컴포넌트 구성요소
+## 컴포넌트 구성요소
 > - template
 > - script
 > - style
@@ -58,7 +58,7 @@ npm create vue@latest / npm install
 ```
 임포트 해놓고 안쓰면 안쓴다고 에러를 보내기 때문에 안쓰는 것은 임포트와 함께 다 지워야 함 겁나 깐깐함
 
-### v-model
+## v-model
 양방향 데이터 바인딩 예시
 ```js
 // 입력값 변경되면 자동 업데이트/렌더링
@@ -82,7 +82,7 @@ export default {
 </script>
 ```
 
-### v-on
+## v-on
 이벤드 핸들링 ex) 클릭(:click), 호버(:mouseover/out), 키 입력(:keyup/down), 입력(:input)(?)
 ```js
 <template>
@@ -101,7 +101,7 @@ export default {
 </script>
 ```
 
-### Props
+## Props
 ```js
 // App.vue
 <template>
@@ -141,7 +141,7 @@ export default {
 </script>
 ```
 
-### emit
+## emit
 자식 -> 부모 이벤트 전달
 ```js
 // App.vue
@@ -183,7 +183,7 @@ export default {
 </script>
 ```
 
-### v-bind
+## v-bind
 : - v-bind 축약으로 value, style, class 등에도 쓰임
 ```js
 <input type="text" placeholder="Email" /> // 정적, 텍스트
@@ -197,6 +197,26 @@ data() {
 ```
 v-model 없이 실시간 감지할 때 @input 이벤트 핸들러 함수 사용
 
-## computed
-데이터 변화에 따른 반응형 UI, 캐싱
+## computed/methods/watch
+- computed(useMemo(react)) : 데이터 변화(데이터 의존)에 따른 계산된 값 (반응형 UI?), 캐싱 - in template
+- methods : 이벤트 함수(클릭, 이벤트 처리 등) - int event
+- watch(useEffect(react)) : 특정 데이터 변화 감지 비동기 작업, 로직 ex) API - in logic
+```js
+data() {
+      return{
+            prince : 0
+};
+},
+watch: {
+      price(newVal, oldVal) {} // data, props, computed에 있는 애들이여야 함, newVal,oldVal 생략 가능
+}
+```
 
+## v-if
+```js
+<span v-if="!isPasswordCorrect && passwordConfirm">비밀번호가 일치하지 않습니다.</span> // isPasswordCorrect가 false일때 출력
+```
+## @blur
+```js
+@blur="hanldeBlur" 포커스 아웃되면 함수 실행
+```
