@@ -217,10 +217,14 @@ watch: {
 ```js
 <span v-if="!isPasswordCorrect && passwordConfirm">비밀번호가 일치하지 않습니다.</span> // isPasswordCorrect가 false일때 출력
 ```
-
-
-
 ## @blur
 ```js
 @blur="hanldeBlur" 포커스 아웃되면 함수 실행
 ```
+
+## created/mounted/beforeUpdate/updated/beforeUnmount/unmounted
+- created : 생성
+- mounted : DOM 조작, 이벤트
+- beforeUpdated : 화면 바뀔때 애니메이션
+
+
