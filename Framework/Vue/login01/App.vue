@@ -1,17 +1,12 @@
 <template>
   <div class="container">
-    <LoginPage />
+    <RouterView />
   </div>
 </template>
 
 <script>
-import LoginPage from "./views/LoginPage.vue";
-
 export default {
   name: "App",
-  components: {
-    LoginPage,
-  },
 };
 </script>
 
@@ -27,5 +22,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.error-message {
+  color: red;
+  font-size: small;
+  width: 100%;
+  text-align: left;
 }
 </style>

@@ -6,23 +6,50 @@
       :placeholder="placeholder"
       :value="modelValue"
       @input="updateValue"
+      @blur="hanldeBlur"
     />
+    <span v-if="!modelValue && showError" class="error-message">{{ msg }}</span>
   </div>
 </template>
 
 <script>
 export default {
   name: "InputFiled",
+  data() {
+    return {
+      showError: false,
+    };
+  },
   props: {
-    type: String,
-    placeholder: String,
-    modelValue: String,
+    // type: String,
+    // placeholder: String,
+    // modelValue: String,
+    // msg: String,
+    type: {
+      type: String,
+      default: "text",
+    },
+    placeholder: {
+      type: String,
+      default: "입력하세요요",
+    },
+    modelValue: {
+      type: String,
+      required: true,
+    },
+    msg: {
+      type: String,
+      default: "이 값을 필수입니다.",
+    },
   },
   emits: ["update:modelValue"],
   methods: {
     updateValue(event) {
       const value = event.target.value.trim();
       this.$emit("update:modelValue", value);
+    },
+    hanldeBlur() {
+      this.showError = true;
     },
   },
 };
