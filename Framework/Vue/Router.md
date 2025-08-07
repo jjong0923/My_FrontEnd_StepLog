@@ -33,4 +33,9 @@ export default router;
 ```js
 <router-link to=""></router-link>(<RouterLink ></RouterLink>)<br>
 <router-view />(<RouterView />) - 라우팅 경로 컴포넌트 랜더링 자리
+
+login() {
+      alert(`${this.email} ${this.password}`);
+      this.$router.push("/main"); // 페이지 이동
+    },
 ```
