@@ -1,4 +1,5 @@
 # FrontEnd_Note
+블로그로 옮겨야겠다...
 ## Tools
 Git Hub, Figma, GitHub Desktop, Git kraken
 
