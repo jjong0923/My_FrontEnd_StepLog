@@ -56,6 +56,13 @@ export const useFruitStore = defineStore("fruit", {
   </div>
 </template>
 
+
+<script setup> // export default 못 사용함
+import { useFruitStore } from "../store/fruit";
+
+const fruitStore = useFruitStore();
+</script>
+===================================================================
 <script>
 import { useFruitStore } from "../store/fruit";
 
