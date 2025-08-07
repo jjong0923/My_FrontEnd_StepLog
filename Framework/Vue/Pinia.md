@@ -1,4 +1,4 @@
-# <a src="https://pinia.vuejs.kr/">Pinia</a>
+<h1><a src="https://pinia.vuejs.kr/">Pinia</a></h1>
 전역 상태 관리 라이브러리
 - Store : 상태 보관/변경 관리하는 객체
 - State : Store 내부 데이터
