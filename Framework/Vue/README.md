@@ -212,10 +212,14 @@ watch: {
 }
 ```
 
-## v-if
+## v-if//v-for
+리액트에서 &&과 map
 ```js
 <span v-if="!isPasswordCorrect && passwordConfirm">비밀번호가 일치하지 않습니다.</span> // isPasswordCorrect가 false일때 출력
 ```
+
+
+
 ## @blur
 ```js
 @blur="hanldeBlur" 포커스 아웃되면 함수 실행
