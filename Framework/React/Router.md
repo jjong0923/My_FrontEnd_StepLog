@@ -1,6 +1,9 @@
 # React - Router
 ```
 npm install react-router-dom@6 // 6 -> 버전
+
+//App.jsx
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 ```
 ```js
 // 일반적인 라우팅 방식
