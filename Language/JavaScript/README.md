@@ -34,6 +34,14 @@ Math.floor(Math.random()*100)+1
 ## intersectionObserver
 화면에 보이는 요소 감지
 ```js
+new IntersectionObserver((entries, observer) =>{
+    entries.forEach((entry) =>{
+        if (entry.isIntersecting) {
+            ~~~~~~
+        }
+    })
+});
+==================================
 useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
