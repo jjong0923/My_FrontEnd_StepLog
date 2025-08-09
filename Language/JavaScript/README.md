@@ -31,6 +31,35 @@ Math.floor(Math.random()*100)+1
 - substr(n,m) : n부터 m개
 - trim : 앞/뒤 공백 제거
 
+# intersectionObserver
+화면에 보이는 요소 감지
+```js
+useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // 요소가 화면에 관찰되면 클래스 추가
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.2 } // 카드의 20%가 보이면 실행
+    );
+    // div 태그 DOM 엘리먼트들을 ref로 cardRefs 배열에 저장
+    // 해당 문을 통해 cardRefs 순회하며 각 요소 개별 관찰
+    cardRefs.current.forEach((card) => {
+      if (card) observer.observe(card);
+    });
+
+    return () => observer.disconnect(); // 모두 멈춤
+  }, []);
+```
+```html
+<div className="card report" ref={(el) => (cardRefs.current[0] = el)}></div>
+<div className="card marketing" ref={(el) => (cardRefs.current[1] = el)}></div>
+ <div className="card sns" ref={(el) => (cardRefs.current[2] = el)}></div>
+```
 
 
 
