@@ -31,7 +31,7 @@ Math.floor(Math.random()*100)+1
 - substr(n,m) : n부터 m개
 - trim : 앞/뒤 공백 제거
 
-# intersectionObserver
+## intersectionObserver
 화면에 보이는 요소 감지
 ```js
 useEffect(() => {
@@ -58,7 +58,7 @@ useEffect(() => {
 ```html
 <div className="card report" ref={(el) => (cardRefs.current[0] = el)}></div>
 <div className="card marketing" ref={(el) => (cardRefs.current[1] = el)}></div>
- <div className="card sns" ref={(el) => (cardRefs.current[2] = el)}></div>
+<div className="card sns" ref={(el) => (cardRefs.current[2] = el)}></div>
 ```
 
 
