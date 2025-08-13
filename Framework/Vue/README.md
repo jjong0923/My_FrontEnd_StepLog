@@ -228,7 +228,10 @@ watch: {
 - beforeUpdated : 화면 바뀔때 애니메이션
 
 
-
+모달창
+```
+npm install --save vue3-confirm-dialog
+```
 
 
 
