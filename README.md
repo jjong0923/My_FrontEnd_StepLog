@@ -104,7 +104,7 @@ ES(ECMAScript)란?
 # 추가할 것들
 ## Axios
 Node.js와 브라우저를 위한 Promise API HTTP 통신 외부 라이브러리, promise 객체 반환
-
+https://velog.io/@kcj_dev96/axios-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%83%9D%EC%84%B1%EA%B3%BC-%ED%97%A4%EB%8D%94-%EC%84%A4%EC%A0%95
 ```
 npm install axios
 ```
