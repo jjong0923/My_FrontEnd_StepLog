@@ -166,6 +166,20 @@ function App(): JSX.Element {
 타입 명시 - 컴포넌트 반환 값을 JSX 타입 지정<br>
 React.FC < JSX.Element<br>
 
+form 이벤트
+```
+onSubim(e : React.FormEvent)
+```
+Ref
+- input
+  ```
+  useRef<HtmlInputElement>(null);
+  ```
+- select
+  ```
+  useRef<HtmlSelectElement>(null)
+  ```
+
 
 
 
