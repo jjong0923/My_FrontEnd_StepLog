@@ -182,7 +182,14 @@ module.exports = {
 ================
 
 ```
+자동정렬
 
+```
+headwind
+npm install -D prettier prettier-plugin-tailwindcss
+
+
+```
 ```
 // 예시
 <div className="w-12 h-10 text-white bg-gray-400"></div>
