@@ -23,7 +23,9 @@ Git Hub, Figma, GitHub Desktop, Git kraken
 
 ### Style
 - vscode-styled-components
-- Tailwind CSS IntelliSense 
+- Tailwind CSS IntelliSense
+- Headwind
+-  
 ### Vue
 - Vuter : 파일구조, 구문 강조, 자동완성, Linting(코드 스타일 검사)
 - Vue(Official) : vue 파일 코드 하이라이팅
