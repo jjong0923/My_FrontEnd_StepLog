@@ -186,7 +186,25 @@ module.exports = {
 
 ```
 headwind
+
+========================= 
+npm install -D prettier-plugin-tailwindcss@latest
 npm install -D prettier prettier-plugin-tailwindcss
+
+// .vscode/settings.json
+{
+  "editor.formatOnSave": true, // 파일을 저장할 때마다 포맷팅 실행
+  "editor.defaultFormatter": "esbenp.prettier-vscode" // 기본 포맷터를 Prettier로 지정
+}
+
+
+// preittier.config.js
+/** @type {import("prettier").Config} */
+export default {
+  // 플러그인을 여기에 등록합니다.
+  plugins: ["prettier-plugin-tailwindcss"],
+};
+
 
 
 ```
@@ -196,11 +214,6 @@ npm install -D prettier prettier-plugin-tailwindcss
 <div className="w-full h-10 bg-red-400 text-blue-200">text</div>
 <div className="flex bg-slate-100 mt-3"></div>
 ```
-<p>
-    w : width,
-    h : height,
-    bg : background
-    
-</p>
+
 
 
