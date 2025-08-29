@@ -1,4 +1,4 @@
-# <a href="https://tailwindcss.com/">Tailwind CSS</a><
+# <a href="https://tailwindcss.com/">Tailwind CSS</a>
 유틸리티 우선의 CSS 프레임워크, html 직접 스타일 정의<br>
 모듈화, 디자인 일관성 유지, 유연성<br>
 
