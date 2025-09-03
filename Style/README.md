@@ -1,9 +1,8 @@
-<h1>CSS Module</h1>
+## ✅ CSS Module</h1>
 CSS 사용 시 class 이름을 고유한 값으로 자동 생성, 정적 스타일 정의<br>
 적용 방법 : 파일명.moudle.css 생성 후 import
 
-<h4>When?</h4>
-
+#### When?
 - 기존 스타일 유지하면서 컴포넌트화
 - Tailwind, Styled-Components가 과할때
 - CSS 범위 충돌
@@ -32,11 +31,11 @@ import styles from "./App.module.css";
 - 조건부 스타일은 유틸 추가 필요
 
 
-<h1><a href="https://styled-components.com/">Styled-Components</a></h1>
+## ✅ <a href="https://styled-components.com/">Styled-Components</a>
 CSS in JS<br>
 런타임에 스타일 생성<br>
 
-<h4>When?</h4>
+#### When?
 
 - 스타일을 컴포넌트 단위로 관리
 - 동적 스타일이 많을 때
@@ -73,11 +72,11 @@ function App() {
 - 런타임 오버헤드
 - 대규모 프로젝트에서 성능 이슈 가능성
 
-<h2>module.css와 Styled-Components</h2>
+### module.css와 Styled-Components
 둘 다 컴포넌트 단위로 스타일을 관리 할 수 있지만 동적으로 스타일을 적용할 땐 Styled-Components가 더 유리함<br>
 상태 기반으로 스타일 변경이 많을 땐 Styled-Components, 그 왼 moudle.css
 
-<h1><a>Bootstrap</a></h1>
+## <a>Bootstrap</a>
 오픈소스 CSS 라이브러리
 
 
