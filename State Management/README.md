@@ -85,7 +85,7 @@ Facebook에서 개발한 React 전용 전역 상태 관리 라이브러리, Atom
 npm install recoil
 ```
  
-## <a href="https://zustand-demo.pmnd.rs/">Zustand</a>
+## ✅ <a href="https://zustand-demo.pmnd.rs/">Zustand</a>
 작은 크기와 단순한 함수 기반 API 제공하는 전역 상태 관리 라이브러리<br>
 최소한의 리랜더링과 최적화 제공
 
