@@ -1,4 +1,4 @@
-## 단일 페이지 애플리케이션(SPA - Single Page Application)
+## ✅ 단일 페이지 애플리케이션(SPA - Single Page Application)
 서버에서 데이터를 비동기로 받아와 동적으로 렌더링 - 클라이언트 사이드 렌더링(CSR - Client Side Rendering)<br>
 Ajax 요청을 통해 부분 렌더링<br>
 화면 렌더링을 로컬 PC에서 진행, 첫 페이지 로딩 느림<br>
@@ -12,7 +12,7 @@ Ajax 요청을 통해 부분 렌더링<br>
 ex) Gamail, Facebook, Netfilx<br>
 by React, Vue.js, Angular.js + Router || 상태 관리 : Redux, Vux || API : Ajax API - axios
 
-## 멀티 페이지 애플리케이션(MPA - Multiple Page Application)
+## ✅ 멀티 페이지 애플리케이션(MPA - Multiple Page Application)
 요청시 서버에서 렌더링 후 클라이언트로 전송, 페이지 마다 생성 - 서버 사이드 렌더링(SSR - Server Side Rendering)<br>
 첫 페이지 로딩 빠름<br>
 검색 엔진 최적회(SEO)에 유리
@@ -27,7 +27,7 @@ by React, Vue.js, Angular.js + Router || 상태 관리 : Redux, Vux || API : Aja
 - 자연 검색 결과(Organic Search Result) - 비광고성
 => 광고 검색 결과보다 자연 검색 결과를 더 많이 클릭하게 됨
 
-## 정적 사이트 생성(SSG - Static Site Generation)
+## ✅ 정적 사이트 생성(SSG - Static Site Generation)
 요청이 없어도 미리 렌더링함
 
 ## SFC - Single File Component
