@@ -75,26 +75,22 @@ ES(ECMAScript)란?
 
 
 ### var, let, const
-<ul>
- <li>var - 재할당/재선언 O</li>
- <li>let - 재할당 O / 재선언 X(권장)</li>
- <li>const - 재할당/재선언 X(권장)</li>
-</ul>
+- var - 재할당/재선언 O
+- let - 재할당 O / 재선언 X(권장)
+- const - 재할당/재선언 X(권장)
 
-## 프로젝트 파일 용도
-<ul>
- <li>components - 재사용 가능한 컴포넌트 하위 폴더 추가 가능</li>
- <li>public - 이미지(index.html 직접 사용, 컴파일시 필요 X) 등 정적 파일</li>
- <li>assets - 이미지 or 폰트(컴포넌트 내부에서 사용하는)</li>
- <li>hooks - 커스텀 훅</li>
- <li>pages - 라우팅 적용 페이지 컴포넌트</li>
- <li>styles - CSS 파일</li>
- <li>api(service) - api 관련 로직, 인증</li>
- <li>utils - 정규표현식 패턴, 공통 함수 등 유틸 파일</li>
- <li>contexts/store - Context API 관련 파일/Redux</li>
- <li>constants - 공통 사용 상수 정의 파일</li>
- <li>config</li>
-</ul>
+## ✅ 프로젝트 파일 용도
+- components - 재사용 가능한 컴포넌트 하위 폴더 추가 가능
+- public - 이미지(index.html 직접 사용, 컴파일시 필요 X) 등 정적 파일
+- assets - 이미지 or 폰트(컴포넌트 내부에서 사용하는)
+- hooks - 커스텀 훅
+- pages - 라우팅 적용 페이지 컴포넌트
+- styles - CSS 파일
+- api(service) - api 관련 로직, 인증
+- utils - 정규표현식 패턴, 공통 함수 등 유틸 파일
+- contexts/store - Context API 관련 파일/Redux
+- constants - 공통 사용 상수 정의 파일
+- config
 
 
 ## DOM(Dcoument Object Model)
