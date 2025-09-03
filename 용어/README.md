@@ -17,12 +17,12 @@ by React, Vue.js, Angular.js + Router || 상태 관리 : Redux, Vux || API : Aja
 첫 페이지 로딩 빠름<br>
 검색 엔진 최적회(SEO)에 유리
 
-## 검색 엔진 최적화(SEO - Serach Engine Optimization)
+## ✅ 검색 엔진 최적화(SEO - Serach Engine Optimization)
 검색 엔진에 친화적인 사이트 구축하여 자연 검색 결과를 통해 트래픽의 양과 질을 극대화<br>
 => 사용자에게 유용한 양질의 콘텐츠 제공 -> 여러 관련 키워드로 검색 결과 페이지 노출로 사이트의 온라인 가시성을 개선하는 마케팅 작업<br>
 검색 엔진의 역할 : 사용자 질문 의도, 니즈에 가까운 답 제공
 
-### 검색엔진 결과 페이지(SERP - Seacrh Engine Result Page)
+### ✅ 검색엔진 결과 페이지(SERP - Seacrh Engine Result Page)
 - 광고 검색 결과(Paid Search Result) - 광고성, 상단에 노출되는 링크
 - 자연 검색 결과(Organic Search Result) - 비광고성
 => 광고 검색 결과보다 자연 검색 결과를 더 많이 클릭하게 됨
