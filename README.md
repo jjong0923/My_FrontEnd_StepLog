@@ -1,9 +1,10 @@
 # FrontEnd_Note
 블로그로 옮겨야겠다...
+
 ## Tools
 Git Hub, Figma, GitHub Desktop, Git kraken
 
-## vsc 플러그인
+## ✅ vsc 플러그인
 - Live Server
 
 ### 공통
