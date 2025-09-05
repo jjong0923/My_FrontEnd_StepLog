@@ -57,6 +57,11 @@ const ValueContext = createContext();
 - Reducer : 액션에 따라 상태 변경 함수
 - Dispatch : 스토어에 전달
 
+```
+npm install redux
+npm install react-redux
+```
+
  when?
  - 대용량 상태 관리
  - 상태 업데이트가 빈번할 때
